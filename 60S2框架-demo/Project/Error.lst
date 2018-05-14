@@ -1,0 +1,44 @@
+C51 COMPILER V9.56.0.0   ERROR                                                             04/30/2018 05:07:22 PAGE 1   
+
+
+C51 COMPILER V9.56.0.0, COMPILATION OF MODULE ERROR
+OBJECT MODULE PLACED IN ..\HexCode\Error.obj
+COMPILER INVOKED BY: C:\Keil_v5\C51\BIN\C51.EXE ..\Error\Error.c OMF2 OPTIMIZE(8,SPEED) PRINT(.\Error.lst) TABS(2) OBJEC
+                    -T(..\HexCode\Error.obj)
+
+line level    source
+
+   1          #include "Error.h"   
+   2          #include "..\public\public.h"   
+   3                                                               
+   4          /*
+   5          // ´íÎó¼ì²â      
+   6          */            
+   7                         
+   8          void Error_Init()
+   9          {                               
+  10   1      }
+  11          
+  12          void Error_Update()
+  13          {              
+  14   1                     
+  15   1      
+  16   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =      2    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+   EDATA SIZE       =   ----    ----
+   HDATA SIZE       =   ----    ----
+   XDATA CONST SIZE =   ----    ----
+   FAR CONST SIZE   =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

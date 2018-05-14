@@ -1,0 +1,20 @@
+"..\HexCode\Main.obj",
+"..\HexCode\0_02_11h.obj",
+"..\HexCode\hSch51.obj",
+"..\HexCode\serialS1.obj",
+"..\HexCode\serialS2.obj",
+"..\HexCode\CommCmdAll.obj",
+"..\HexCode\CommCmdS1.obj",
+"..\HexCode\CommCmdS2.obj",
+"..\HexCode\Input.obj",
+"..\HexCode\Output.obj",
+"..\HexCode\beep.obj",
+"..\HexCode\led.obj",
+"..\HexCode\FlashRom.obj",
+"..\HexCode\memory.obj",
+"..\HexCode\Decision.obj",
+"..\HexCode\Error.obj" 
+TO "..\HexCode\Solar1_2" 
+
+PRINT(".\Solar1_2.map") OVERLAY (main ~ (Comm_Update,Dispatch_Update), hSCH_Dispatch_Tasks 
+    ! (Comm_Update,Dispatch_Update)) 

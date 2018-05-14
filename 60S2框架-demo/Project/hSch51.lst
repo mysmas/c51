@@ -1,0 +1,125 @@
+C51 COMPILER V9.56.0.0   HSCH51                                                            04/30/2018 05:07:21 PAGE 1   
+
+
+C51 COMPILER V9.56.0.0, COMPILATION OF MODULE HSCH51
+OBJECT MODULE PLACED IN ..\HexCode\hSch51.obj
+COMPILER INVOKED BY: C:\Keil_v5\C51\BIN\C51.EXE ..\Main\hSch51.c OMF2 OPTIMIZE(8,SPEED) PRINT(.\hSch51.lst) TABS(2) OBJE
+                    -CT(..\HexCode\hSch51.obj)
+
+line level    source
+
+   1          #include "..\main\Main.h"
+   2          #include "..\main\Port.h"
+   3          #include "..\main\ext_reg.h"
+   4          
+   5          #include "hSch51.h"
+   6          
+   7          sTaskH hSCH_tasks_G[hSCH_MAX_TASKS];    //结构体定义的数组
+   8           
+   9                              
+  10          static void hSCH_Go_To_Sleep(void);
+  11          
+  12          
+  13          void hSCH_Dispatch_Tasks(void)         //任务调度
+  14          {
+  15   1         uchar Index;                 //
+  16   1         for (Index = 0; Index < hSCH_MAX_TASKS; Index++)
+  17   1            {
+  18   2            if ((hSCH_tasks_G[Index].Co_op) && (hSCH_tasks_G[Index].RunMe > 0))     //
+  19   2               {
+  20   3               (*hSCH_tasks_G[Index].pTask)();  // Run the task       //
+  21   3                hSCH_tasks_G[Index].RunMe -= 1;   // Reset / reduce RunMe flag    
+  22   3               if (hSCH_tasks_G[Index].Period == 0)             //
+  23   3                  {
+  24   4                  hSCH_tasks_G[Index].pTask = 0;                //
+  25   4                  }
+  26   3               }
+  27   2            }
+  28   1      
+  29   1         hSCH_Go_To_Sleep();          
+  30   1      }
+  31          
+  32          
+  33          uchar hSCH_Add_Task(void (code* Fn_p)(), // Task function pointer           
+  34                             uchar   Del,    // Num ticks 'til task first runs 
+  35                             uchar   Per,    // Num ticks between repeat runs
+  36                             bit     Co_op)  // Co_op / pre_emp
+  37          {
+  38   1         uchar Index = 0;
+  39   1         
+  40   1         // First find a gap in the array (if there is one)
+  41   1         while ((hSCH_tasks_G[Index].pTask != 0) && (Index < hSCH_MAX_TASKS))
+  42   1            {
+  43   2            Index++;
+  44   2            } 
+  45   1         
+  46   1         // Have we reached the end of the list?   
+  47   1         if (Index == hSCH_MAX_TASKS)
+  48   1            {
+  49   2             return hSCH_MAX_TASKS;  
+  50   2            }
+  51   1            
+  52   1         // If we're here, there is a space in the task array
+  53   1         hSCH_tasks_G[Index].pTask = Fn_p;
+  54   1           
+C51 COMPILER V9.56.0.0   HSCH51                                                            04/30/2018 05:07:21 PAGE 2   
+
+  55   1         hSCH_tasks_G[Index].Delay  = Del;
+  56   1         hSCH_tasks_G[Index].Period = Per;
+  57   1      
+  58   1         hSCH_tasks_G[Index].Co_op = Co_op;
+  59   1      
+  60   1         hSCH_tasks_G[Index].RunMe  = 0;
+  61   1      
+  62   1         return Index; // return position of task (to allow later deletion)
+  63   1      }
+  64          
+  65          /* 
+  66          bit hSCH_Delete_Task(uchar Task_index) 
+  67          {
+  68             bit Return_code;
+  69          
+  70             if (hSCH_tasks_G[Task_index].pTask == 0)
+  71                {                       
+  72                   Return_code = 1;  // RETURN_ERROR;
+  73                }
+  74             else
+  75                {
+  76                   Return_code = 0;  //RETURN_NORMAL;
+  77                }      
+  78             
+  79             hSCH_tasks_G[Task_index].pTask   = 0;
+  80             hSCH_tasks_G[Task_index].Delay   = 0;
+  81             hSCH_tasks_G[Task_index].Period  = 0;
+  82          
+  83             hSCH_tasks_G[Task_index].RunMe   = 0;
+  84          
+  85             return Return_code;       // return status
+  86          }
+  87          */
+  88          
+  89          void hSCH_Go_To_Sleep()
+  90          {
+  91   1         PCON |= 0x01;    
+  92   1      }
+  93          
+  94          
+  95          
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    209    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =     16       1
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----       1
+   EDATA SIZE       =   ----    ----
+   HDATA SIZE       =   ----    ----
+   XDATA CONST SIZE =   ----    ----
+   FAR CONST SIZE   =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

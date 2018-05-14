@@ -1,0 +1,403 @@
+BL51 BANKED LINKER/LOCATER V6.22                                                        08/15/2016  08:51:14  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.22, INVOKED BY:
+D:\KEIL_V5\C51\BIN\BL51.EXE ..\HexCode\Main.obj, ..\HexCode\0_02_11h.obj, ..\HexCode\hSch51.obj, ..\HexCode\serialS1.obj
+>> , ..\HexCode\serialS2.obj, ..\HexCode\serialS3.obj, ..\HexCode\serialS4.obj, ..\HexCode\CommCmdAll.obj, ..\HexCode\Co
+>> mmCmdS1.obj, ..\HexCode\CommCmdS2.obj, ..\HexCode\CommCmdS3.obj, ..\HexCode\CommCmdS4.obj, ..\HexCode\Input.obj, ..\H
+>> exCode\Output.obj, ..\HexCode\beep.obj, ..\HexCode\led.obj, ..\HexCode\FlashRom.obj, ..\HexCode\memory.obj, ..\HexCod
+>> e\Decision.obj, ..\HexCode\Error.obj TO ..\HexCode\Solar1 PRINT (.\Solar1.m51) RAMSIZE (256) OVERLAY (MAIN ~  (COMM_U
+>> PDATE, DISPATCH_UPDATE), HSCH_DISPATCH_TASKS !  (COMM_UPDATE, DISPATCH_UPDATE))
+
+
+MEMORY MODEL: SMALL
+
+
+INPUT MODULES INCLUDED:
+  ..\HexCode\Main.obj (MAIN)
+  ..\HexCode\0_02_11h.obj (0_02_11H)
+  ..\HexCode\hSch51.obj (HSCH51)
+  ..\HexCode\serialS1.obj (SERIALS1)
+  ..\HexCode\serialS2.obj (SERIALS2)
+  ..\HexCode\serialS3.obj (SERIALS3)
+  ..\HexCode\serialS4.obj (SERIALS4)
+  ..\HexCode\CommCmdAll.obj (COMMCMDALL)
+  ..\HexCode\CommCmdS1.obj (COMMCMDS1)
+  ..\HexCode\CommCmdS2.obj (COMMCMDS2)
+  ..\HexCode\CommCmdS3.obj (COMMCMDS3)
+  ..\HexCode\CommCmdS4.obj (COMMCMDS4)
+  ..\HexCode\Input.obj (INPUT)
+  ..\HexCode\Output.obj (OUTPUT)
+  ..\HexCode\beep.obj (BEEP)
+  ..\HexCode\led.obj (LED)
+  ..\HexCode\FlashRom.obj (FLASHROM)
+  ..\HexCode\memory.obj (MEMORY)
+  ..\HexCode\Decision.obj (DECISION)
+  ..\HexCode\Error.obj (ERROR)
+  D:\KEIL_V5\C51\LIB\C51S.LIB (?C_STARTUP)
+  D:\KEIL_V5\C51\LIB\C51S.LIB (?C?CLDPTR)
+  D:\KEIL_V5\C51\LIB\C51S.LIB (?C?CLDOPTR)
+  D:\KEIL_V5\C51\LIB\C51S.LIB (?C?CSTOPTR)
+  D:\KEIL_V5\C51\LIB\C51S.LIB (?C?LSTXDATA)
+  D:\KEIL_V5\C51\LIB\C51S.LIB (?C?ICALL)
+
+
+LINK MAP OF MODULE:  ..\HexCode\Solar1 (MAIN)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+            DATA    0008H     0010H     UNIT         ?DT?HSCH51
+            DATA    0018H     0007H     UNIT         ?DT?_FLASHROM_READ_32BYTES?FLASHROM
+                    001FH     0001H                  *** GAP ***
+            BIT     0020H.0   0001H.1   UNIT         ?BI?MAIN
+            BIT     0021H.1   0000H.1   UNIT         ?BI?SERIALS1
+            BIT     0021H.2   0000H.1   UNIT         ?BI?SERIALS2
+            BIT     0021H.3   0000H.1   UNIT         ?BI?SERIALS3
+            BIT     0021H.4   0000H.1   UNIT         ?BI?SERIALS4
+            BIT     0021H.5   0000H.1   UNIT         _BIT_GROUP_
+BL51 BANKED LINKER/LOCATER V6.22                                                      08/15/2016  08:51:14  PAGE 2
+
+
+                    0021H.6   0000H.2                *** GAP ***
+            DATA    0022H     0007H     UNIT         _DATA_GROUP_
+            DATA    0029H     0005H     UNIT         ?DT?_CRC16?COMMCMDALL
+            IDATA   002EH     000BH     UNIT         ?ID?SERIALS1
+            IDATA   0039H     000BH     UNIT         ?ID?SERIALS2
+            IDATA   0044H     000BH     UNIT         ?ID?SERIALS3
+            IDATA   004FH     000BH     UNIT         ?ID?SERIALS4
+            IDATA   005AH     0004H     UNIT         ?ID?MAIN
+            IDATA   005EH     0001H     UNIT         ?STACK
+
+            * * * * * * *  X D A T A   M E M O R Y  * * * * * * *
+            XDATA   0000H     012CH     UNIT         ?XD?MAIN
+            XDATA   012CH     00F0H     UNIT         ?XD?SERIALS1
+            XDATA   021CH     00F0H     UNIT         ?XD?SERIALS2
+            XDATA   030CH     00F0H     UNIT         ?XD?SERIALS3
+            XDATA   03FCH     00F0H     UNIT         ?XD?SERIALS4
+            XDATA   04ECH     0004H     UNIT         ?XD?BEEP
+            XDATA   04F0H     0004H     UNIT         ?XD?LED
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0003H     ABSOLUTE     
+            CODE    0003H     0008H     UNIT         ?PR?MEMORY_INIT?MEMORY
+            CODE    000BH     0003H     ABSOLUTE     
+            CODE    000EH     011CH     UNIT         ?PR?SERIALS4_UPDATE?SERIALS4
+            CODE    012AH     011BH     UNIT         ?PR?SERIALS3_UPDATE?SERIALS3
+            CODE    0245H     0113H     UNIT         ?PR?SERIALS2_UPDATE?SERIALS2
+            CODE    0358H     010DH     UNIT         ?PR?SERIALS1_UPDATE?SERIALS1
+            CODE    0465H     00F4H     UNIT         ?PR?HSCH_UPDATE?0_02_11H
+            CODE    0559H     00DAH     UNIT         ?PR?SERIALS2_SEND?SERIALS2
+            CODE    0633H     00DAH     UNIT         ?PR?SERIALS3_SEND?SERIALS3
+            CODE    070DH     00DAH     UNIT         ?PR?SERIALS4_SEND?SERIALS4
+            CODE    07E7H     00D9H     UNIT         ?PR?SERIALS1_SEND?SERIALS1
+            CODE    08C0H     0080H     UNIT         ?PR?COMMCMDS1_UPDATE?COMMCMDS1
+            CODE    0940H     0080H     UNIT         ?PR?COMMCMDS2_UPDATE?COMMCMDS2
+            CODE    09C0H     0080H     UNIT         ?PR?COMMCMDS3_UPDATE?COMMCMDS3
+            CODE    0A40H     0080H     UNIT         ?PR?COMMCMDS4_UPDATE?COMMCMDS4
+            CODE    0AC0H     007AH     UNIT         ?C?LIB_CODE
+            CODE    0B3AH     006FH     UNIT         ?PR?_CRC16?COMMCMDALL
+            CODE    0BA9H     0069H     UNIT         ?PR?_HSCH_ADD_TASK?HSCH51
+            CODE    0C12H     0064H     UNIT         ?PR?HSCH_DISPATCH_TASKS?HSCH51
+            CODE    0C76H     0064H     UNIT         ?PR?_FLASHROM_WRITE_32BYTES?FLASHROM
+            CODE    0CDAH     0059H     UNIT         ?PR?FLASHROM_INIT?FLASHROM
+            CODE    0D33H     004DH     UNIT         ?PR?DISPATCH_UPDATE?MAIN
+            CODE    0D80H     004BH     UNIT         ?PR?FLASHROM_SAVEINFO?FLASHROM
+            CODE    0DCBH     0047H     UNIT         ?PR?MAIN?MAIN
+            CODE    0E12H     0045H     UNIT         ?PR?_FLASHSAVE_SECTOR?FLASHROM
+            CODE    0E57H     0044H     UNIT         ?PR?_FLASHROM_READ_32BYTES?FLASHROM
+            CODE    0E9BH     0039H     UNIT         ?PR?BEEP_UPDATE?BEEP
+            CODE    0ED4H     0039H     UNIT         ?PR?LED_UPDATE?LED
+            CODE    0F0DH     0027H     UNIT         ?PR?FLASHROM_FORMAT?FLASHROM
+            CODE    0F34H     0020H     UNIT         ?PR?DISPATCH_INIT?MAIN
+            CODE    0F54H     001CH     UNIT         ?PR?COMMCMDS1_INIT?COMMCMDS1
+            CODE    0F70H     001CH     UNIT         ?PR?COMMCMDS2_INIT?COMMCMDS2
+            CODE    0F8CH     001CH     UNIT         ?PR?COMMCMDS3_INIT?COMMCMDS3
+            CODE    0FA8H     001CH     UNIT         ?PR?COMMCMDS4_INIT?COMMCMDS4
+            CODE    0FC4H     0019H     UNIT         ?PR?S1_GETSENDCOUNT?SERIALS1
+            CODE    0FDDH     0019H     UNIT         ?PR?S1_GETRECVCOUNT?SERIALS1
+BL51 BANKED LINKER/LOCATER V6.22                                                      08/15/2016  08:51:14  PAGE 3
+
+
+            CODE    0FF6H     0019H     UNIT         ?PR?S2_GETSENDCOUNT?SERIALS2
+            CODE    100FH     0019H     UNIT         ?PR?S2_GETRECVCOUNT?SERIALS2
+            CODE    1028H     0019H     UNIT         ?PR?S3_GETSENDCOUNT?SERIALS3
+            CODE    1041H     0019H     UNIT         ?PR?S3_GETRECVCOUNT?SERIALS3
+            CODE    105AH     0019H     UNIT         ?PR?S4_GETSENDCOUNT?SERIALS4
+            CODE    1073H     0019H     UNIT         ?PR?S4_GETRECVCOUNT?SERIALS4
+            CODE    108CH     0019H     UNIT         ?PR?_FLASHROM_READ_1BYTE?FLASHROM
+            CODE    10A5H     0018H     UNIT         ?PR?COMMCMDALL_INIT?COMMCMDALL
+            CODE    10BDH     0018H     UNIT         ?PR?_FLASHROM_ERASE?FLASHROM
+            CODE    10D5H     0017H     UNIT         ?PR?SERIALS1_INIT?SERIALS1
+            CODE    10ECH     0015H     UNIT         ?PR?SERIALS3_INIT?SERIALS3
+            CODE    1101H     0015H     UNIT         ?PR?SERIALS4_INIT?SERIALS4
+            CODE    1116H     0015H     UNIT         ?PR?_BEEP_SET?BEEP
+            CODE    112BH     0014H     UNIT         ?PR?OUTPUT_INIT?OUTPUT
+            CODE    113FH     0014H     UNIT         ?PR?_LED_SET?LED
+            CODE    1153H     0012H     UNIT         ?PR?IAP_IAP_ENABLE?FLASHROM
+            CODE    1165H     0011H     UNIT         ?PR?HSCH_INIT_T0?0_02_11H
+            CODE    1176H     0010H     UNIT         ?PR?SERIALS2_INIT?SERIALS2
+            CODE    1186H     000CH     UNIT         ?PR?SERIALALL_UPDATE?COMMCMDALL
+            CODE    1192H     000CH     UNIT         ?PR?COMMCMDALL_UPDATE?COMMCMDALL
+            CODE    119EH     000CH     UNIT         ?C_C51STARTUP
+            CODE    11AAH     000BH     UNIT         ?PR?BEEP_INIT?BEEP
+            CODE    11B5H     000BH     UNIT         ?PR?LED_INIT?LED
+            CODE    11C0H     0009H     UNIT         ?PR?IAP_IAP_DISABLE?FLASHROM
+            CODE    11C9H     0009H     UNIT         ?PR?MEMORY_UPDATE?MEMORY
+            CODE    11D2H     0006H     UNIT         ?PR?OUTPUT_UPDATE?OUTPUT
+            CODE    11D8H     0004H     UNIT         ?PR?HSCH_GO_TO_SLEEP?HSCH51
+            CODE    11DCH     0003H     UNIT         ?PR?COMM_UPDATE?MAIN
+            CODE    11DFH     0003H     UNIT         ?PR?HSCH_START?0_02_11H
+            CODE    11E2H     0003H     UNIT         ?PR?BEEP_ON?BEEP
+            CODE    11E5H     0003H     UNIT         ?PR?BEEP_OFF?BEEP
+            CODE    11E8H     0003H     UNIT         ?PR?LED_ON?LED
+            CODE    11EBH     0003H     UNIT         ?PR?LED_OFF?LED
+            CODE    11EEH     0003H     UNIT         ?PR?_FLASHROM_READ?FLASHROM
+            CODE    11F1H     0001H     UNIT         ?PR?INPUT_INIT?INPUT
+            CODE    11F2H     0001H     UNIT         ?PR?INPUT_UPDATE?INPUT
+            CODE    11F3H     0001H     UNIT         ?PR?DECISION_INIT?DECISION
+            CODE    11F4H     0001H     UNIT         ?PR?DECISION_UPDATE?DECISION
+            CODE    11F5H     0001H     UNIT         ?PR?ERROR_INIT?ERROR
+            CODE    11F6H     0001H     UNIT         ?PR?ERROR_UPDATE?ERROR
+
+
+
+OVERLAY MAP OF MODULE:   ..\HexCode\Solar1 (MAIN)
+
+
+SEGMENT                                         BIT_GROUP          DATA_GROUP 
+  +--> CALLED SEGMENT                        START    LENGTH     START    LENGTH
+--------------------------------------------------------------------------------
+?PR?HSCH_UPDATE?0_02_11H                     -----    -----      0022H    0001H
+
+*** NEW ROOT ***************************************************
+
+?C_C51STARTUP                                -----    -----      -----    -----
+  +--> ?PR?MAIN?MAIN
+
+?PR?MAIN?MAIN                                -----    -----      -----    -----
+BL51 BANKED LINKER/LOCATER V6.22                                                      08/15/2016  08:51:14  PAGE 4
+
+
+  +--> ?PR?DISPATCH_INIT?MAIN
+  +--> ?PR?HSCH_INIT_T0?0_02_11H
+  +--> ?PR?_HSCH_ADD_TASK?HSCH51
+  +--> ?PR?HSCH_START?0_02_11H
+  +--> ?PR?HSCH_DISPATCH_TASKS?HSCH51
+
+?PR?DISPATCH_INIT?MAIN                       -----    -----      -----    -----
+  +--> ?PR?MEMORY_INIT?MEMORY
+  +--> ?PR?OUTPUT_INIT?OUTPUT
+  +--> ?PR?INPUT_INIT?INPUT
+  +--> ?PR?COMMCMDALL_INIT?COMMCMDALL
+  +--> ?PR?DECISION_INIT?DECISION
+  +--> ?PR?ERROR_INIT?ERROR
+
+?PR?MEMORY_INIT?MEMORY                       -----    -----      -----    -----
+  +--> ?PR?FLASHROM_INIT?FLASHROM
+
+?PR?FLASHROM_INIT?FLASHROM                   -----    -----      -----    -----
+  +--> ?PR?_FLASHROM_READ?FLASHROM
+  +--> ?PR?FLASHROM_FORMAT?FLASHROM
+
+?PR?FLASHROM_FORMAT?FLASHROM                 -----    -----      -----    -----
+  +--> ?PR?_FLASHSAVE_SECTOR?FLASHROM
+
+?PR?_FLASHSAVE_SECTOR?FLASHROM               -----    -----      -----    -----
+  +--> ?PR?_FLASHROM_WRITE_32BYTES?FLASHROM
+
+?PR?_FLASHROM_WRITE_32BYTES?FLASHROM         -----    -----      0024H    0005H
+  +--> ?PR?_FLASHROM_ERASE?FLASHROM
+  +--> ?PR?IAP_IAP_ENABLE?FLASHROM
+  +--> ?PR?IAP_IAP_DISABLE?FLASHROM
+
+?PR?_FLASHROM_ERASE?FLASHROM                 -----    -----      -----    -----
+  +--> ?PR?IAP_IAP_ENABLE?FLASHROM
+  +--> ?PR?IAP_IAP_DISABLE?FLASHROM
+
+?PR?OUTPUT_INIT?OUTPUT                       -----    -----      -----    -----
+  +--> ?PR?BEEP_INIT?BEEP
+  +--> ?PR?LED_INIT?LED
+  +--> ?PR?_BEEP_SET?BEEP
+  +--> ?PR?_LED_SET?LED
+
+?PR?COMMCMDALL_INIT?COMMCMDALL               -----    -----      -----    -----
+  +--> ?PR?SERIALS1_INIT?SERIALS1
+  +--> ?PR?SERIALS2_INIT?SERIALS2
+  +--> ?PR?SERIALS3_INIT?SERIALS3
+  +--> ?PR?SERIALS4_INIT?SERIALS4
+  +--> ?PR?COMMCMDS1_INIT?COMMCMDS1
+  +--> ?PR?COMMCMDS2_INIT?COMMCMDS2
+  +--> ?PR?COMMCMDS3_INIT?COMMCMDS3
+  +--> ?PR?COMMCMDS4_INIT?COMMCMDS4
+
+?PR?_HSCH_ADD_TASK?HSCH51                    0021H.5  0000H.1    -----    -----
+
+?PR?HSCH_DISPATCH_TASKS?HSCH51               -----    -----      0023H    0001H
+  +--> ?PR?HSCH_GO_TO_SLEEP?HSCH51
+  +--> ?PR?COMM_UPDATE?MAIN
+BL51 BANKED LINKER/LOCATER V6.22                                                      08/15/2016  08:51:14  PAGE 5
+
+
+  +--> ?PR?DISPATCH_UPDATE?MAIN
+
+?PR?COMM_UPDATE?MAIN                         -----    -----      -----    -----
+  +--> ?PR?SERIALALL_UPDATE?COMMCMDALL
+
+?PR?SERIALALL_UPDATE?COMMCMDALL              -----    -----      -----    -----
+  +--> ?PR?SERIALS1_UPDATE?SERIALS1
+  +--> ?PR?SERIALS2_UPDATE?SERIALS2
+  +--> ?PR?SERIALS3_UPDATE?SERIALS3
+  +--> ?PR?SERIALS4_UPDATE?SERIALS4
+
+?PR?DISPATCH_UPDATE?MAIN                     -----    -----      -----    -----
+  +--> ?PR?INPUT_UPDATE?INPUT
+  +--> ?PR?DECISION_UPDATE?DECISION
+  +--> ?PR?ERROR_UPDATE?ERROR
+  +--> ?PR?MEMORY_UPDATE?MEMORY
+  +--> ?PR?COMMCMDALL_UPDATE?COMMCMDALL
+  +--> ?PR?OUTPUT_UPDATE?OUTPUT
+  +--> ?PR?_BEEP_SET?BEEP
+
+?PR?MEMORY_UPDATE?MEMORY                     -----    -----      -----    -----
+  +--> ?PR?FLASHROM_SAVEINFO?FLASHROM
+
+?PR?FLASHROM_SAVEINFO?FLASHROM               -----    -----      -----    -----
+  +--> ?PR?_FLASHSAVE_SECTOR?FLASHROM
+
+?PR?COMMCMDALL_UPDATE?COMMCMDALL             -----    -----      -----    -----
+  +--> ?PR?COMMCMDS1_UPDATE?COMMCMDS1
+  +--> ?PR?COMMCMDS2_UPDATE?COMMCMDS2
+  +--> ?PR?COMMCMDS3_UPDATE?COMMCMDS3
+  +--> ?PR?COMMCMDS4_UPDATE?COMMCMDS4
+
+?PR?COMMCMDS1_UPDATE?COMMCMDS1               -----    -----      -----    -----
+  +--> ?PR?S1_GETRECVCOUNT?SERIALS1
+  +--> ?PR?SERIALS1_SEND?SERIALS1
+
+?PR?SERIALS1_SEND?SERIALS1                   -----    -----      -----    -----
+  +--> ?PR?S1_GETSENDCOUNT?SERIALS1
+
+?PR?COMMCMDS2_UPDATE?COMMCMDS2               -----    -----      -----    -----
+  +--> ?PR?S2_GETRECVCOUNT?SERIALS2
+  +--> ?PR?SERIALS2_SEND?SERIALS2
+
+?PR?SERIALS2_SEND?SERIALS2                   -----    -----      -----    -----
+  +--> ?PR?S2_GETSENDCOUNT?SERIALS2
+
+?PR?COMMCMDS3_UPDATE?COMMCMDS3               -----    -----      -----    -----
+  +--> ?PR?S3_GETRECVCOUNT?SERIALS3
+  +--> ?PR?SERIALS3_SEND?SERIALS3
+
+?PR?SERIALS3_SEND?SERIALS3                   -----    -----      -----    -----
+  +--> ?PR?S3_GETSENDCOUNT?SERIALS3
+
+?PR?COMMCMDS4_UPDATE?COMMCMDS4               -----    -----      -----    -----
+  +--> ?PR?S4_GETRECVCOUNT?SERIALS4
+  +--> ?PR?SERIALS4_SEND?SERIALS4
+
+BL51 BANKED LINKER/LOCATER V6.22                                                      08/15/2016  08:51:14  PAGE 6
+
+
+?PR?SERIALS4_SEND?SERIALS4                   -----    -----      -----    -----
+  +--> ?PR?S4_GETSENDCOUNT?SERIALS4
+
+?PR?OUTPUT_UPDATE?OUTPUT                     -----    -----      -----    -----
+  +--> ?PR?BEEP_UPDATE?BEEP
+  +--> ?PR?LED_UPDATE?LED
+
+?PR?BEEP_UPDATE?BEEP                         -----    -----      -----    -----
+  +--> ?PR?BEEP_ON?BEEP
+  +--> ?PR?BEEP_OFF?BEEP
+
+?PR?LED_UPDATE?LED                           -----    -----      -----    -----
+  +--> ?PR?LED_ON?LED
+  +--> ?PR?LED_OFF?LED
+
+
+
+SYMBOL TABLE OF MODULE:  ..\HexCode\Solar1 (MAIN)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        ?C?CLDPTR
+  C:0AC0H         PUBLIC        ?C?CLDPTR
+  -------         ENDMOD        ?C?CLDPTR
+
+  -------         MODULE        ?C?CLDOPTR
+  C:0AD9H         PUBLIC        ?C?CLDOPTR
+  -------         ENDMOD        ?C?CLDOPTR
+
+  -------         MODULE        ?C?CSTOPTR
+  C:0B06H         PUBLIC        ?C?CSTOPTR
+  -------         ENDMOD        ?C?CSTOPTR
+
+  -------         MODULE        ?C?LSTXDATA
+  C:0B28H         PUBLIC        ?C?LSTXDATA
+  -------         ENDMOD        ?C?LSTXDATA
+
+  -------         MODULE        ?C?ICALL
+  C:0B34H         PUBLIC        ?C?ICALL
+  C:0B38H         PUBLIC        ?C?ICALL2
+  -------         ENDMOD        ?C?ICALL
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_CRC16?COMMCMDALL
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_FLASHROM_READ_32BYTES?FLASHROM
+
+*** ERROR L121: IMPROPER FIXUP
+    MODULE:  ..\HexCode\CommCmdS1.obj (COMMCMDS1)
+    SEGMENT: ?PR?COMMCMDS1_INIT?COMMCMDS1
+    OFFSET:  0017H
+
+*** ERROR L121: IMPROPER FIXUP
+    MODULE:  ..\HexCode\CommCmdS2.obj (COMMCMDS2)
+    SEGMENT: ?PR?COMMCMDS2_INIT?COMMCMDS2
+BL51 BANKED LINKER/LOCATER V6.22                                                      08/15/2016  08:51:14  PAGE 7
+
+
+    OFFSET:  0017H
+
+*** ERROR L121: IMPROPER FIXUP
+    MODULE:  ..\HexCode\CommCmdS3.obj (COMMCMDS3)
+    SEGMENT: ?PR?COMMCMDS3_INIT?COMMCMDS3
+    OFFSET:  0017H
+
+*** ERROR L121: IMPROPER FIXUP
+    MODULE:  ..\HexCode\CommCmdS4.obj (COMMCMDS4)
+    SEGMENT: ?PR?COMMCMDS4_INIT?COMMCMDS4
+    OFFSET:  0017H
+
+*** ERROR L121: IMPROPER FIXUP
+    MODULE:  ..\HexCode\FlashRom.obj (FLASHROM)
+    SEGMENT: ?PR?FLASHROM_INIT?FLASHROM
+    OFFSET:  0017H
+
+*** ERROR L121: IMPROPER FIXUP
+    MODULE:  ..\HexCode\memory.obj (MEMORY)
+    SEGMENT: ?PR?MEMORY_INIT?MEMORY
+    OFFSET:  0004H
+
+*** ERROR L121: IMPROPER FIXUP
+    MODULE:  ..\HexCode\memory.obj (MEMORY)
+    SEGMENT: ?PR?MEMORY_INIT?MEMORY
+    OFFSET:  0006H
+
+*** ERROR L121: IMPROPER FIXUP
+    MODULE:  ..\HexCode\memory.obj (MEMORY)
+    SEGMENT: ?PR?MEMORY_UPDATE?MEMORY
+    OFFSET:  0001H
+
+*** ERROR L121: IMPROPER FIXUP
+    MODULE:  ..\HexCode\memory.obj (MEMORY)
+    SEGMENT: ?PR?MEMORY_UPDATE?MEMORY
+    OFFSET:  0004H
+
+Program Size: data=93.6 xdata=1268 code=4599
+LINK/LOCATE RUN COMPLETE.  2 WARNING(S),  9 ERROR(S)

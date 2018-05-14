@@ -1,0 +1,21 @@
+"..\HexCode\Main.obj",
+"..\HexCode\0_02_11h.obj",
+"..\HexCode\hSch51.obj",
+"..\HexCode\CommCmdS1.obj",
+"..\HexCode\CommCmdS2.obj",
+"..\HexCode\serialS1.obj",
+"..\HexCode\serialS2.obj",
+"..\HexCode\CommCmdAll.obj",
+"..\HexCode\CommCmdS3.obj",
+"..\HexCode\CommCmdS4.obj",
+"..\HexCode\serialS3.obj",
+"..\HexCode\serialS4.obj",
+"..\HexCode\Input.obj",
+"..\HexCode\Output.obj",
+"..\HexCode\beep.obj",
+"..\HexCode\FlashRom.obj",
+"..\HexCode\memory.obj" 
+TO "..\HexCode\热能监控网关_20151217" 
+
+PRINT(".\热能监控网关_20151217.map") OVERLAY (main ~ (Comm_Update,Dispatch_Update), hSCH_Dispatch_Tasks 
+              ! (Comm_Update,Dispatch_Update)) 

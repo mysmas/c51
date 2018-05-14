@@ -1,0 +1,824 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+E:\热能监控——演示版\新版热能监控程序\集中器程序\Project\Drying.uvproj
+Project File Date:  12/14/2015
+
+<h2>Output:</h2>
+Build target 'Drying'
+linking...
+Program Size: data=85.0 xdata=406 code=4654
+creating hex file from "..\HexCode\监控终端_1号设备"...
+"..\HexCode\监控终端_1号设备" - 0 Error(s), 0 Warning(s).
+Build target 'Drying'
+compiling Main.c...
+..\MAIN\MAIN.C(80): error C202: 'Pulse_Pin': undefined identifier
+..\MAIN\MAIN.C(82): error C202: 'Pulse_Pin': undefined identifier
+compiling hSch51.c...
+compiling serial.c...
+compiling CommCmd.c...
+compiling CommCmdS3.c...
+..\COMM\COMMCMDS3.C(10): warning C280: 'tmpL': unreferenced local variable
+compiling CommCmdS4.c...
+compiling serialS3.c...
+compiling serialS4.c...
+compiling serialS2.c...
+compiling Input.c...
+compiling Temp.c...
+compiling Output.c...
+..\OUTPUT\OUTPUT.C(10): error C202: 'out_5': undefined identifier
+..\OUTPUT\OUTPUT.C(11): error C202: 'out_4': undefined identifier
+..\OUTPUT\OUTPUT.C(12): error C202: 'out_3': undefined identifier
+..\OUTPUT\OUTPUT.C(13): error C202: 'out_2': undefined identifier
+..\OUTPUT\OUTPUT.C(14): error C202: 'out_1': undefined identifier
+..\OUTPUT\OUTPUT.C(22): error C202: 'out_1': undefined identifier
+..\OUTPUT\OUTPUT.C(22): error C202: 'out_1': undefined identifier
+..\OUTPUT\OUTPUT.C(23): error C202: 'out_2': undefined identifier
+..\OUTPUT\OUTPUT.C(23): error C202: 'out_2': undefined identifier
+..\OUTPUT\OUTPUT.C(24): error C202: 'out_3': undefined identifier
+..\OUTPUT\OUTPUT.C(24): error C202: 'out_3': undefined identifier
+..\OUTPUT\OUTPUT.C(25): error C202: 'out_4': undefined identifier
+..\OUTPUT\OUTPUT.C(25): error C202: 'out_4': undefined identifier
+compiling beep.c...
+Target not created
+Build target 'Drying'
+compiling Main.c...
+compiling Output.c...
+..\OUTPUT\OUTPUT.C(10): error C202: 'out_5': undefined identifier
+..\OUTPUT\OUTPUT.C(11): error C202: 'out_4': undefined identifier
+..\OUTPUT\OUTPUT.C(12): error C202: 'out_3': undefined identifier
+..\OUTPUT\OUTPUT.C(13): error C202: 'out_2': undefined identifier
+..\OUTPUT\OUTPUT.C(14): error C202: 'out_1': undefined identifier
+..\OUTPUT\OUTPUT.C(22): error C202: 'out_1': undefined identifier
+..\OUTPUT\OUTPUT.C(22): error C202: 'out_1': undefined identifier
+..\OUTPUT\OUTPUT.C(23): error C202: 'out_2': undefined identifier
+..\OUTPUT\OUTPUT.C(23): error C202: 'out_2': undefined identifier
+..\OUTPUT\OUTPUT.C(24): error C202: 'out_3': undefined identifier
+..\OUTPUT\OUTPUT.C(24): error C202: 'out_3': undefined identifier
+..\OUTPUT\OUTPUT.C(25): error C202: 'out_4': undefined identifier
+..\OUTPUT\OUTPUT.C(25): error C202: 'out_4': undefined identifier
+Target not created
+Build target 'Drying'
+compiling Output.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COMMCMD_UPDATES3?COMMCMDS3
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COMMCMD_UPDATES4?COMMCMDS4
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_INITS3?SERIALS3
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_UPDATES3?SERIALS3
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_INITS4?SERIALS4
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_UPDATES4?SERIALS4
+Program Size: data=89.0 xdata=406 code=5570
+creating hex file from "..\HexCode\监控终端_1号设备"...
+"..\HexCode\监控终端_1号设备" - 0 Error(s), 6 Warning(s).
+Build target 'Drying'
+compiling Main.c...
+..\Main\Main.c(10): warning C318: can't open file '..\Comm\serial.h'
+..\Main\Main.c(11): warning C318: can't open file '..\Comm\commcmd.h'
+..\MAIN\MAIN.C(76): warning C206: 'Serial_Update': missing function-prototype
+..\MAIN\MAIN.C(96): warning C206: 'CommCmd_Update': missing function-prototype
+..\MAIN\MAIN.C(110): warning C206: 'CommCmd_Init': missing function-prototype
+compiling serialS3.c...
+..\Comm\serialS3.c(2): warning C318: can't open file 'CommCmd.h'
+compiling serialS4.c...
+..\Comm\serialS4.c(2): warning C318: can't open file 'CommCmd.h'
+compiling CommCmdS1.c...
+..\Comm\CommCmdS1.c(1): warning C318: can't open file 'CommCmd.h'
+..\Comm\CommCmdS1.c(2): warning C318: can't open file 'serial.h'
+..\COMM\COMMCMDS1.C(13): warning C206: 'Serial_Init': missing function-prototype
+..\COMM\COMMCMDS1.C(20): warning C206: 'CommCmd_UpdateS1': missing function-prototype
+..\COMM\COMMCMDS1.C(24): error C231: 'CommCmd_UpdateS1': redefinition
+compiling serialS1.c...
+..\Comm\serialS1.c(1): warning C318: can't open file 'serial.h'
+..\Comm\serialS1.c(2): warning C318: can't open file 'CommCmd.h'
+..\MAIN\PORT.H(2): error C202: 'P3': undefined identifier
+..\MAIN\PORT.H(4): error C202: 'P1': undefined identifier
+..\MAIN\PORT.H(5): error C202: 'P2': undefined identifier
+..\MAIN\PORT.H(6): error C202: 'P2': undefined identifier
+..\MAIN\PORT.H(7): error C202: 'P2': undefined identifier
+..\MAIN\PORT.H(9): error C202: 'P3': undefined identifier
+..\MAIN\PORT.H(10): error C202: 'P1': undefined identifier
+..\MAIN\PORT.H(11): error C202: 'P1': undefined identifier
+..\MAIN\PORT.H(13): error C202: 'P1': undefined identifier
+..\MAIN\PORT.H(14): error C202: 'P4': undefined identifier
+..\MAIN\PORT.H(15): error C202: 'P1': undefined identifier
+..\MAIN\EXT_REG.H(5): error C129: missing ';' before 'xdata'
+compiling Input.c...
+..\Input\Input.c(5): warning C318: can't open file '..\Comm\serial.h'
+compiling FlashRom.c...
+..\Memory\FlashRom.c(3): warning C318: can't open file '..\Comm\serial.h'
+Target not created
+Build target 'Drying'
+compiling CommCmdS1.c...
+..\Comm\CommCmdS1.c(1): warning C318: can't open file 'CommCmd.h'
+..\Comm\CommCmdS1.c(2): warning C318: can't open file 'serial.h'
+..\COMM\COMMCMDS1.C(13): warning C206: 'Serial_Init': missing function-prototype
+..\COMM\COMMCMDS1.C(20): warning C206: 'CommCmd_UpdateS1': missing function-prototype
+..\COMM\COMMCMDS1.C(24): error C231: 'CommCmd_UpdateS1': redefinition
+compiling serialS1.c...
+..\Comm\serialS1.c(2): warning C318: can't open file 'CommCmd.h'
+Target not created
+Build target 'Drying'
+compiling CommCmdS1.c...
+..\Comm\CommCmdS1.c(1): warning C318: can't open file 'CommCmd.h'
+..\Comm\CommCmdS1.c(2): warning C318: can't open file 'serial.h'
+..\COMM\COMMCMDS1.C(13): warning C206: 'Serial_Init': missing function-prototype
+..\COMM\COMMCMDS1.C(20): warning C206: 'CommCmd_UpdateS1': missing function-prototype
+..\COMM\COMMCMDS1.C(24): error C231: 'CommCmd_UpdateS1': redefinition
+compiling serialS1.c...
+Target not created
+Build target 'Drying'
+compiling CommCmdS1.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COMMCMD_UPDATES3?COMMCMDS3
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COMMCMD_UPDATES4?COMMCMDS4
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_INITS3?SERIALS3
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_UPDATES3?SERIALS3
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_INITS4?SERIALS4
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_UPDATES4?SERIALS4
+Program Size: data=89.0 xdata=406 code=5570
+creating hex file from "..\HexCode\监控终端_1号设备"...
+"..\HexCode\监控终端_1号设备" - 0 Error(s), 6 Warning(s).
+Build target 'Drying'
+compiling serialS2.c...
+compiling CommCmdS2.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COMMCMD_UPDATES3?COMMCMDS3
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COMMCMD_UPDATES4?COMMCMDS4
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_INITS3?SERIALS3
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_UPDATES3?SERIALS3
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_INITS4?SERIALS4
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_UPDATES4?SERIALS4
+Program Size: data=89.0 xdata=406 code=5570
+creating hex file from "..\HexCode\监控终端_1号设备"...
+"..\HexCode\监控终端_1号设备" - 0 Error(s), 6 Warning(s).
+Build target 'Drying'
+compiling CommCmdS2.c...
+compiling serialS2.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COMMCMD_UPDATES3?COMMCMDS3
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COMMCMD_UPDATES4?COMMCMDS4
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_INITS3?SERIALS3
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_UPDATES3?SERIALS3
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_INITS4?SERIALS4
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_UPDATES4?SERIALS4
+Program Size: data=89.0 xdata=406 code=5570
+creating hex file from "..\HexCode\监控终端_1号设备"...
+"..\HexCode\监控终端_1号设备" - 0 Error(s), 6 Warning(s).
+Clean started: Project: 'Drying'
+   deleting intermediate output files for target 'Drying'
+Build target 'Drying'
+compiling Main.c...
+..\Main\Main.c(10): warning C318: can't open file '..\Comm\serial.h'
+..\Main\Main.c(11): warning C318: can't open file '..\Comm\commcmd.h'
+..\MAIN\MAIN.C(76): warning C206: 'Serial_Update': missing function-prototype
+..\MAIN\MAIN.C(96): warning C206: 'CommCmd_Update': missing function-prototype
+..\MAIN\MAIN.C(110): warning C206: 'CommCmd_Init': missing function-prototype
+compiling 0_02_11h.C...
+compiling hSch51.c...
+compiling CommCmdS1.c...
+compiling CommCmdS2.c...
+compiling CommCmdS3.c...
+..\COMM\COMMCMDS3.C(10): warning C280: 'tmpL': unreferenced local variable
+compiling CommCmdS4.c...
+compiling serialS1.c...
+compiling serialS2.c...
+compiling serialS3.c...
+..\Comm\serialS3.c(2): warning C318: can't open file 'CommCmd.h'
+compiling serialS4.c...
+..\Comm\serialS4.c(2): warning C318: can't open file 'CommCmd.h'
+compiling Input.c...
+..\Input\Input.c(5): warning C318: can't open file '..\Comm\serial.h'
+compiling Temp.c...
+compiling Output.c...
+compiling beep.c...
+compiling FlashRom.c...
+..\Memory\FlashRom.c(3): warning C318: can't open file '..\Comm\serial.h'
+compiling memory.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COMMCMD_UPDATES3?COMMCMDS3
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COMMCMD_UPDATES4?COMMCMDS4
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_INITS3?SERIALS3
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_UPDATES3?SERIALS3
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_INITS4?SERIALS4
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_UPDATES4?SERIALS4
+Program Size: data=89.0 xdata=406 code=5570
+creating hex file from "..\HexCode\热能监控集中器_20151216"...
+"..\HexCode\热能监控集中器_20151216" - 0 Error(s), 16 Warning(s).
+Build target 'Drying'
+compiling Main.c...
+..\MAIN\MAIN.C(76): warning C206: 'SerialS1_Update': missing function-prototype
+..\MAIN\MAIN.C(96): warning C206: 'CommCmdS1_Update': missing function-prototype
+..\MAIN\MAIN.C(110): warning C206: 'CommCmdS1_Init': missing function-prototype
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COMMCMD_INIT?COMMCMDS1
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COMMCMD_UPDATE?COMMCMDS1
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COMMCMD_UPDATES3?COMMCMDS3
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COMMCMD_UPDATES4?COMMCMDS4
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_UPDATE?SERIALS1
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_INITS3?SERIALS3
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_UPDATES3?SERIALS3
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_INITS4?SERIALS4
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_UPDATES4?SERIALS4
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  COMMCMDS1_INIT
+    MODULE:  ..\HexCode\Main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SERIALS1_UPDATE
+    MODULE:  ..\HexCode\Main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  COMMCMDS1_UPDATE
+    MODULE:  ..\HexCode\Main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SERIALS1_UPDATE
+    MODULE:  ..\HexCode\Main.obj (MAIN)
+    ADDRESS: 13B1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  COMMCMDS1_UPDATE
+    MODULE:  ..\HexCode\Main.obj (MAIN)
+    ADDRESS: 14B3H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  COMMCMDS1_INIT
+    MODULE:  ..\HexCode\Main.obj (MAIN)
+    ADDRESS: 148DH
+Program Size: data=96.0 xdata=406 code=5570
+creating hex file from "..\HexCode\热能监控集中器_20151216"...
+"..\HexCode\热能监控集中器_20151216" - 0 Error(s), 18 Warning(s).
+Build target 'Drying'
+compiling Main.c...
+..\MAIN\MAIN.C(76): warning C206: 'SerialS1_Update': missing function-prototype
+compiling CommCmdS1.c...
+..\COMM\COMMCMDS1.C(20): warning C206: 'CommCmd_UpdateS1': missing function-prototype
+..\COMM\COMMCMDS1.C(24): error C231: 'CommCmd_UpdateS1': redefinition
+..\COMM\COMMCMDS1.C(116): error C231: 'CommCmd_UpdateS1': redefinition
+compiling serialS1.c...
+Target not created
+Build target 'Drying'
+compiling CommCmdS1.c...
+..\COMM\COMMCMDS1.C(116): error C237: 'CommCmdS1_Update': function already has a body
+Target not created
+Build target 'Drying'
+compiling Main.c...
+..\MAIN\MAIN.C(76): warning C206: 'SerialS1_Update': missing function-prototype
+compiling CommCmdS1.c...
+compiling serialS1.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COMMCMD_UPDATES3?COMMCMDS3
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COMMCMD_UPDATES4?COMMCMDS4
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_UPDATE?SERIALS1
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_INITS3?SERIALS3
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_UPDATES3?SERIALS3
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_INITS4?SERIALS4
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_UPDATES4?SERIALS4
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SERIALS1_UPDATE
+    MODULE:  ..\HexCode\Main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SERIALS1_UPDATE
+    MODULE:  ..\HexCode\Main.obj (MAIN)
+    ADDRESS: 13B1H
+Program Size: data=89.0 xdata=406 code=5567
+creating hex file from "..\HexCode\热能监控集中器_20151216"...
+"..\HexCode\热能监控集中器_20151216" - 0 Error(s), 10 Warning(s).
+Build target 'Drying'
+compiling Main.c...
+compiling CommCmdS1.c...
+..\COMM\COMMCMDS1.C(13): warning C206: 'Serial_Init': missing function-prototype
+compiling serialS1.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COMMCMD_UPDATES3?COMMCMDS3
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COMMCMD_UPDATES4?COMMCMDS4
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_INITS3?SERIALS3
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_UPDATES3?SERIALS3
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_INITS4?SERIALS4
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_UPDATES4?SERIALS4
+Program Size: data=89.0 xdata=406 code=5564
+creating hex file from "..\HexCode\热能监控集中器_20151216"...
+"..\HexCode\热能监控集中器_20151216" - 0 Error(s), 7 Warning(s).
+Build target 'Drying'
+compiling CommCmdS1.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COMMCMD_UPDATES3?COMMCMDS3
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COMMCMD_UPDATES4?COMMCMDS4
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_INIT?SERIALS1
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_INITS3?SERIALS3
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_UPDATES3?SERIALS3
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_INITS4?SERIALS4
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_UPDATES4?SERIALS4
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SERIALS1_INIT
+    MODULE:  ..\HexCode\CommCmdS1.obj (COMMCMDS1)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SERIALS1_INIT
+    MODULE:  ..\HexCode\CommCmdS1.obj (COMMCMDS1)
+    ADDRESS: 14BAH
+Program Size: data=89.0 xdata=406 code=5564
+creating hex file from "..\HexCode\热能监控集中器_20151216"...
+"..\HexCode\热能监控集中器_20151216" - 0 Error(s), 9 Warning(s).
+Build target 'Drying'
+compiling Main.c...
+compiling 0_02_11h.C...
+compiling hSch51.c...
+compiling CommCmdS1.c...
+compiling CommCmdS2.c...
+compiling CommCmdS3.c...
+..\COMM\COMMCMDS3.C(10): warning C280: 'tmpL': unreferenced local variable
+compiling CommCmdS4.c...
+compiling serialS1.c...
+compiling serialS2.c...
+compiling serialS3.c...
+..\Comm\serialS3.c(2): warning C318: can't open file 'CommCmd.h'
+compiling serialS4.c...
+..\Comm\serialS4.c(2): warning C318: can't open file 'CommCmd.h'
+compiling Input.c...
+..\Input\Input.c(5): warning C318: can't open file '..\Comm\serial.h'
+compiling Temp.c...
+compiling Output.c...
+compiling beep.c...
+compiling FlashRom.c...
+..\Memory\FlashRom.c(3): warning C318: can't open file '..\Comm\serial.h'
+compiling memory.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COMMCMD_UPDATES3?COMMCMDS3
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COMMCMD_UPDATES4?COMMCMDS4
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_INIT?SERIALS1
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_INITS3?SERIALS3
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_UPDATES3?SERIALS3
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_INITS4?SERIALS4
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_UPDATES4?SERIALS4
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SERIALS1_INIT
+    MODULE:  ..\HexCode\CommCmdS1.obj (COMMCMDS1)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SERIALS1_INIT
+    MODULE:  ..\HexCode\CommCmdS1.obj (COMMCMDS1)
+    ADDRESS: 14BAH
+Program Size: data=89.0 xdata=406 code=5564
+creating hex file from "..\HexCode\热能监控集中器_20151216"...
+"..\HexCode\热能监控集中器_20151216" - 0 Error(s), 14 Warning(s).
+Build target 'Drying'
+compiling Main.c...
+compiling 0_02_11h.C...
+compiling hSch51.c...
+compiling CommCmdS1.c...
+compiling CommCmdS2.c...
+compiling CommCmdS3.c...
+..\COMM\COMMCMDS3.C(10): warning C280: 'tmpL': unreferenced local variable
+compiling CommCmdS4.c...
+compiling serialS1.c...
+compiling serialS2.c...
+compiling serialS3.c...
+..\Comm\serialS3.c(2): warning C318: can't open file 'CommCmd.h'
+compiling serialS4.c...
+..\Comm\serialS4.c(2): warning C318: can't open file 'CommCmd.h'
+compiling Input.c...
+..\Input\Input.c(5): warning C318: can't open file '..\Comm\serial.h'
+compiling Temp.c...
+compiling Output.c...
+compiling beep.c...
+compiling FlashRom.c...
+compiling memory.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COMMCMD_UPDATES3?COMMCMDS3
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COMMCMD_UPDATES4?COMMCMDS4
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_INIT?SERIALS1
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_INITS3?SERIALS3
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_UPDATES3?SERIALS3
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_INITS4?SERIALS4
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_UPDATES4?SERIALS4
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SERIALS1_INIT
+    MODULE:  ..\HexCode\CommCmdS1.obj (COMMCMDS1)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SERIALS1_INIT
+    MODULE:  ..\HexCode\CommCmdS1.obj (COMMCMDS1)
+    ADDRESS: 14BAH
+Program Size: data=89.0 xdata=406 code=5564
+creating hex file from "..\HexCode\热能监控集中器_20151216"...
+"..\HexCode\热能监控集中器_20151216" - 0 Error(s), 13 Warning(s).
+Build target 'Drying'
+compiling Main.c...
+compiling 0_02_11h.C...
+compiling hSch51.c...
+compiling CommCmdS1.c...
+compiling CommCmdS2.c...
+compiling CommCmdS3.c...
+..\COMM\COMMCMDS3.C(10): warning C280: 'tmpL': unreferenced local variable
+compiling CommCmdS4.c...
+compiling serialS1.c...
+compiling serialS2.c...
+compiling serialS3.c...
+compiling serialS4.c...
+compiling Input.c...
+compiling Temp.c...
+compiling Output.c...
+compiling beep.c...
+compiling FlashRom.c...
+compiling memory.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COMMCMD_UPDATES3?COMMCMDS3
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COMMCMD_UPDATES4?COMMCMDS4
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_INIT?SERIALS1
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_INITS3?SERIALS3
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_UPDATES3?SERIALS3
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_INITS4?SERIALS4
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_UPDATES4?SERIALS4
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SERIALS1_INIT
+    MODULE:  ..\HexCode\CommCmdS1.obj (COMMCMDS1)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SERIALS1_INIT
+    MODULE:  ..\HexCode\CommCmdS1.obj (COMMCMDS1)
+    ADDRESS: 14BAH
+Program Size: data=89.0 xdata=406 code=5564
+creating hex file from "..\HexCode\热能监控集中器_20151216"...
+"..\HexCode\热能监控集中器_20151216" - 0 Error(s), 10 Warning(s).
+Build target 'Drying'
+compiling Main.c...
+compiling 0_02_11h.C...
+compiling hSch51.c...
+compiling CommCmdS1.c...
+compiling CommCmdS2.c...
+compiling CommCmdS3.c...
+compiling CommCmdS4.c...
+compiling serialS1.c...
+compiling serialS2.c...
+compiling serialS3.c...
+compiling serialS4.c...
+compiling Input.c...
+compiling Temp.c...
+compiling Output.c...
+compiling beep.c...
+compiling FlashRom.c...
+compiling memory.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COMMCMD_UPDATES3?COMMCMDS3
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COMMCMD_UPDATES4?COMMCMDS4
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_INIT?SERIALS1
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_INITS3?SERIALS3
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_UPDATES3?SERIALS3
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SERIAL_SENDS3?SERIALS3
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_INITS4?SERIALS4
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_UPDATES4?SERIALS4
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SERIALS1_INIT
+    MODULE:  ..\HexCode\CommCmdS1.obj (COMMCMDS1)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SERIALS1_INIT
+    MODULE:  ..\HexCode\CommCmdS1.obj (COMMCMDS1)
+    ADDRESS: 1472H
+Program Size: data=85.0 xdata=406 code=5493
+creating hex file from "..\HexCode\热能监控集中器_20151216"...
+"..\HexCode\热能监控集中器_20151216" - 0 Error(s), 10 Warning(s).
+Build target 'Drying'
+compiling Main.c...
+compiling 0_02_11h.C...
+compiling hSch51.c...
+compiling CommCmdS1.c...
+compiling CommCmdS2.c...
+compiling CommCmdS3.c...
+compiling CommCmdS4.c...
+compiling serialS1.c...
+compiling serialS2.c...
+compiling serialS3.c...
+compiling serialS4.c...
+compiling Input.c...
+compiling Temp.c...
+compiling Output.c...
+compiling beep.c...
+compiling FlashRom.c...
+compiling memory.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COMMCMD_UPDATES3?COMMCMDS3
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COMMCMD_UPDATES4?COMMCMDS4
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_INIT?SERIALS1
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_INITS3?SERIALS3
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_UPDATES3?SERIALS3
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SERIAL_SENDS3?SERIALS3
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_INITS4?SERIALS4
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_UPDATES4?SERIALS4
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SERIAL_SENDS4?SERIALS4
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SERIALS1_INIT
+    MODULE:  ..\HexCode\CommCmdS1.obj (COMMCMDS1)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SERIALS1_INIT
+    MODULE:  ..\HexCode\CommCmdS1.obj (COMMCMDS1)
+    ADDRESS: 1452H
+Program Size: data=85.0 xdata=406 code=5462
+creating hex file from "..\HexCode\热能监控集中器_20151216"...
+"..\HexCode\热能监控集中器_20151216" - 0 Error(s), 11 Warning(s).
+Build target 'Drying'
+compiling CommCmdS2.c...
+compiling CommCmdS3.c...
+compiling serialS2.c...
+..\COMM\SERIALS2.C(24): error C202: 'S2_RecvState': undefined identifier
+..\COMM\SERIALS2.C(25): error C202: 'S2_Recv_Idle_Count': undefined identifier
+..\COMM\SERIALS2.C(26): error C202: 'S2_RS_RecvPrt': undefined identifier
+..\COMM\SERIALS2.C(27): error C202: 'S2_RS_SendPrt': undefined identifier
+..\COMM\SERIALS2.C(29): error C202: 'S3TI': undefined identifier
+..\COMM\SERIALS2.C(39): error C202: 'S2_mTranPtr': undefined identifier
+..\COMM\SERIALS2.C(43): error C202: 'S2_mTranPtr': undefined identifier
+..\COMM\SERIALS2.C(44): error C202: 'S2_mTranPtr': undefined identifier
+..\COMM\SERIALS2.C(48): error C202: 'S2_bRS_SendPrce': undefined identifier
+..\COMM\SERIALS2.C(56): error C202: 'S2_Recv_Idle_Count': undefined identifier
+..\COMM\SERIALS2.C(58): error C202: 'S2_Recv_Idle_Count': undefined identifier
+..\COMM\SERIALS2.C(59): error C202: 'S2_RecvState': undefined identifier
+..\COMM\SERIALS2.C(65): error C202: 'S2_Recv_Idle_Count': undefined identifier
+..\COMM\SERIALS2.C(66): error C202: 'S2_RecvState': undefined identifier
+..\COMM\SERIALS2.C(69): error C202: 'S2_mRecv_Buff': undefined identifier
+..\COMM\SERIALS2.C(70): error C202: 'S2_mRecv_Buff': undefined identifier
+..\COMM\SERIALS2.C(70): error C202: 'S2_RecvState': undefined identifier
+..\COMM\SERIALS2.C(74): error C202: 'S2_mRecv_Buff': undefined identifier
+..\COMM\SERIALS2.C(75): error C202: 'S2_mRecv_Buff': undefined identifier
+..\COMM\SERIALS2.C(75): error C202: 'S2_RecvState': undefined identifier
+..\COMM\SERIALS2.C(75): error C202: 'S2_RecvState': undefined identifier
+..\COMM\SERIALS2.C(79): error C202: 'S2_mRecv_Buff': undefined identifier
+..\COMM\SERIALS2.C(80): error C202: 'S2_mRecv_Buff': undefined identifier
+..\COMM\SERIALS2.C(80): error C202: 'S2_RecvState': undefined identifier
+..\COMM\SERIALS2.C(81): error C202: 'S2_RecvState': undefined identifier
+..\COMM\SERIALS2.C(85): error C202: 'S2_mRecv_Buff': undefined identifier
+..\COMM\SERIALS2.C(86): error C202: 'S2_RecvState': undefined identifier
+..\COMM\SERIALS2.C(90): error C202: 'S2_mRecv_Buff': undefined identifier
+..\COMM\SERIALS2.C(91): error C202: 'S2_mRecv_Buff': undefined identifier
+..\COMM\SERIALS2.C(91): error C202: 'S2_RecvState': undefined identifier
+..\COMM\SERIALS2.C(91): error C202: 'S2_RecvState': undefined identifier
+..\COMM\SERIALS2.C(95): error C202: 'S2_mRecv_Buff': undefined identifier
+..\COMM\SERIALS2.C(96): error C202: 'S2_mRecv_Buff': undefined identifier
+..\COMM\SERIALS2.C(96): error C202: 'S2_RecvState': undefined identifier
+..\COMM\SERIALS2.C(96): error C202: 'S2_RecvState': undefined identifier
+..\COMM\SERIALS2.C(96): error C202: 'S2_RecvPtr': undefined identifier
+..\COMM\SERIALS2.C(100): error C202: 'S2_RecvPtr': undefined identifier
+..\COMM\SERIALS2.C(101): error C202: 'S2_RecvPtr': undefined identifier
+..\COMM\SERIALS2.C(102): error C202: 'S2_RecvPtr': undefined identifier
+..\COMM\SERIALS2.C(102): error C202: 'S2_bRS_GetRecv': undefined identifier
+..\COMM\SERIALS2.C(102): error C202: 'S2_RecvState': undefined identifier
+..\COMM\SERIALS2.C(106): error C202: 'S2_RecvState': undefined identifier
+..\COMM\SERIALS2.C(118): error C202: 'S2_bRS_SendPrce': undefined identifier
+..\COMM\SERIALS2.C(122): error C202: 'S2_mTran_Buff': undefined identifier
+..\COMM\SERIALS2.C(123): error C202: 'S2_mTran_Buff': undefined identifier
+..\COMM\SERIALS2.C(124): error C202: 'S2_mTran_Buff': undefined identifier
+..\COMM\SERIALS2.C(125): error C202: 'S2_mTran_Buff': undefined identifier
+..\COMM\SERIALS2.C(126): error C202: 'S2_mTran_Buff': undefined identifier
+..\COMM\SERIALS2.C(127): error C202: 'S2_mTran_Buff': undefined identifier
+..\COMM\SERIALS2.C(128): error C202: 'S2_mTran_Buff': undefined identifier
+..\COMM\SERIALS2.C(130): error C202: 'S2_mTran_Buff': undefined identifier
+..\COMM\SERIALS2.C(132): error C202: 'S2_mTranPtr': undefined identifier
+..\COMM\SERIALS2.C(133): error C202: 'S2_mTranLen': undefined identifier
+..\COMM\SERIALS2.C(134): error C202: 'S2_bRS_SendPrce': undefined identifier
+compiling serialS3.c...
+compiling serialS4.c...
+Target not created
+Build target 'Drying'
+compiling Main.c...
+compiling 0_02_11h.C...
+compiling hSch51.c...
+compiling CommCmdS1.c...
+..\COMM\COMMCMDS1.C(12): error C202: 'Re_State': undefined identifier
+..\COMM\COMMCMDS1.C(15): error C202: 'mRecv_Buff': undefined identifier
+..\COMM\COMMCMDS1.C(23): error C202: 'bRS_SendPrce': undefined identifier
+..\COMM\COMMCMDS1.C(24): error C202: 'bRS_GetRecv': undefined identifier
+..\COMM\COMMCMDS1.C(25): error C202: 'bRS_GetRecv': undefined identifier
+..\COMM\COMMCMDS1.C(28): error C202: 'mRecv_Buff': undefined identifier
+..\COMM\COMMCMDS1.C(29): error C202: 'mRecv_Buff': undefined identifier
+..\COMM\COMMCMDS1.C(30): error C202: 'mRecv_Buff': undefined identifier
+..\COMM\COMMCMDS1.C(34): error C202: 'mRecv_Buff': undefined identifier
+..\COMM\COMMCMDS1.C(46): error C202: 'mRecv_Buff': undefined identifier
+..\COMM\COMMCMDS1.C(49): error C202: 'mTran_Buff': undefined identifier
+..\COMM\COMMCMDS1.C(50): error C202: 'mTran_Buff': undefined identifier
+..\COMM\COMMCMDS1.C(51): error C202: 'mTran_Buff': undefined identifier
+..\COMM\COMMCMDS1.C(52): error C202: 'mTran_Buff': undefined identifier
+..\COMM\COMMCMDS1.C(53): error C202: 'mTran_Buff': undefined identifier
+compiling CommCmdS2.c...
+compiling CommCmdS3.c...
+compiling CommCmdS4.c...
+compiling serialS1.c...
+..\COMM\SERIALS1.C(56): error C202: 'S_Recv_Idle_Count': undefined identifier
+compiling serialS2.c...
+..\COMM\SERIALS2.C(29): error C202: 'S3TI': undefined identifier
+compiling serialS3.c...
+compiling serialS4.c...
+compiling Input.c...
+compiling Temp.c...
+compiling Output.c...
+compiling beep.c...
+compiling FlashRom.c...
+compiling memory.c...
+Target not created
+Build target 'Drying'
+compiling Main.c...
+compiling 0_02_11h.C...
+compiling hSch51.c...
+compiling CommCmdS1.c...
+compiling CommCmdS2.c...
+compiling CommCmdS3.c...
+compiling CommCmdS4.c...
+compiling serialS1.c...
+compiling serialS2.c...
+compiling serialS3.c...
+compiling serialS4.c...
+compiling Input.c...
+compiling Temp.c...
+compiling Output.c...
+compiling beep.c...
+compiling FlashRom.c...
+compiling memory.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COMMCMD_UPDATES3?COMMCMDS3
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COMMCMD_UPDATES4?COMMCMDS4
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_INIT?SERIALS1
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIALS2_INIT?SERIALS2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIALS2_UPDATE?SERIALS2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SERIALS2_SEND?SERIALS2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIALS3_INIT?SERIALS3
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIALS3_UPDATE?SERIALS3
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SERIALS3_SEND?SERIALS3
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_INITS4?SERIALS4
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_UPDATES4?SERIALS4
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SERIAL_SENDS4?SERIALS4
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SERIALS1_INIT
+    MODULE:  ..\HexCode\CommCmdS1.obj (COMMCMDS1)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SERIALS1_INIT
+    MODULE:  ..\HexCode\CommCmdS1.obj (COMMCMDS1)
+    ADDRESS: 1618H
+Program Size: data=92.2 xdata=506 code=5916
+creating hex file from "..\HexCode\热能监控集中器_20151216"...
+"..\HexCode\热能监控集中器_20151216" - 0 Error(s), 14 Warning(s).
+Build target 'Drying'
+compiling Main.c...
+compiling 0_02_11h.C...
+compiling hSch51.c...
+compiling CommCmdS1.c...
+compiling CommCmdS2.c...
+compiling CommCmdS3.c...
+compiling CommCmdS4.c...
+compiling serialS1.c...
+compiling serialS2.c...
+compiling serialS3.c...
+compiling serialS4.c...
+compiling Input.c...
+compiling Output.c...
+compiling beep.c...
+compiling FlashRom.c...
+compiling memory.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COMMCMD_UPDATES3?COMMCMDS3
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COMMCMD_UPDATES4?COMMCMDS4
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_INIT?SERIALS1
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIALS2_INIT?SERIALS2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIALS2_UPDATE?SERIALS2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SERIALS2_SEND?SERIALS2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIALS3_INIT?SERIALS3
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIALS3_UPDATE?SERIALS3
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SERIALS3_SEND?SERIALS3
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_INITS4?SERIALS4
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_UPDATES4?SERIALS4
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SERIAL_SENDS4?SERIALS4
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SERIALS1_INIT
+    MODULE:  ..\HexCode\CommCmdS1.obj (COMMCMDS1)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SERIALS1_INIT
+    MODULE:  ..\HexCode\CommCmdS1.obj (COMMCMDS1)
+    ADDRESS: 0DA9H
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  TEMP_INIT
+    MODULE:  ..\HexCode\Input.obj (INPUT)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  TEMP_UPDATE
+    MODULE:  ..\HexCode\Input.obj (INPUT)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TEMP_INIT
+    MODULE:  ..\HexCode\Input.obj (INPUT)
+    ADDRESS: 0E43H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  TEMP_UPDATE
+    MODULE:  ..\HexCode\Input.obj (INPUT)
+    ADDRESS: 0E17H
+Program Size: data=92.2 xdata=506 code=3742
+creating hex file from "..\HexCode\热能监控集中器_20151216"...
+"..\HexCode\热能监控集中器_20151216" - 0 Error(s), 18 Warning(s).

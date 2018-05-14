@@ -1,0 +1,1082 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Administrator\Desktop\new\Gateway\Project\Koncentrator.uvproj
+Project File Date:  12/17/2015
+
+<h2>Output:</h2>
+Build target 'Koncentrator'
+compiling Main.c...
+compiling 0_02_11h.C...
+compiling hSch51.c...
+compiling CommCmdS1.c...
+compiling CommCmdS2.c...
+compiling serialS1.c...
+compiling serialS2.c...
+compiling CommCmdAll.c...
+compiling Input.c...
+compiling Output.c...
+compiling beep.c...
+compiling FlashRom.c...
+compiling memory.c...
+linking...
+Program Size: data=65.2 xdata=1701 code=5680
+creating hex file from "..\HexCode\热能监控集中器_20151216"...
+"..\HexCode\热能监控集中器_20151216" - 0 Error(s), 0 Warning(s).
+Build target 'Gateway'
+compiling Main.c...
+compiling 0_02_11h.C...
+compiling hSch51.c...
+compiling CommCmdS1.c...
+compiling CommCmdS2.c...
+compiling serialS1.c...
+compiling serialS2.c...
+compiling CommCmdAll.c...
+compiling Input.c...
+compiling Output.c...
+compiling beep.c...
+compiling FlashRom.c...
+compiling memory.c...
+linking...
+Program Size: data=65.2 xdata=1701 code=5680
+creating hex file from "..\HexCode\热能监控集中器_20151216"...
+"..\HexCode\热能监控集中器_20151216" - 0 Error(s), 0 Warning(s).
+Clean started: Project: 'Koncentrator'
+   deleting intermediate output files for target 'Gateway'
+Build target 'Gateway'
+compiling Main.c...
+compiling 0_02_11h.C...
+compiling hSch51.c...
+compiling CommCmdS1.c...
+compiling CommCmdS2.c...
+compiling serialS1.c...
+compiling serialS2.c...
+compiling CommCmdAll.c...
+compiling Input.c...
+compiling Output.c...
+compiling beep.c...
+compiling FlashRom.c...
+compiling memory.c...
+linking...
+Program Size: data=65.2 xdata=1701 code=5681
+creating hex file from "..\HexCode\热能监控网关_20151217"...
+"..\HexCode\热能监控网关_20151217" - 0 Error(s), 0 Warning(s).
+Build target 'Gateway'
+compiling Main.c...
+..\MAIN\PORT.H(2): error C231: 'Signal1': redefinition
+..\MAIN\PORT.H(3): error C231: 'Signal2': redefinition
+..\MAIN\PORT.H(4): error C231: 'Signal3': redefinition
+..\MAIN\PORT.H(5): error C231: 'Signal4': redefinition
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+compiling 0_02_11h.C...
+compiling hSch51.c...
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+..\MAIN\EXT_REG.H(18): error C231: 'Signal1': redefinition
+..\MAIN\EXT_REG.H(19): error C231: 'Signal2': redefinition
+..\MAIN\EXT_REG.H(20): error C231: 'Signal3': redefinition
+..\MAIN\EXT_REG.H(21): error C231: 'Signal4': redefinition
+compiling CommCmdS1.c...
+..\MAIN\PORT.H(2): error C231: 'Signal1': redefinition
+..\MAIN\PORT.H(3): error C231: 'Signal2': redefinition
+..\MAIN\PORT.H(4): error C231: 'Signal3': redefinition
+..\MAIN\PORT.H(5): error C231: 'Signal4': redefinition
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+..\COMM\COMMCMDS1.C(18): error C202: 'RS485EN1': undefined identifier
+..\COMM\COMMCMDS1.C(32): error C202: 'm_AreaCode': undefined identifier
+..\COMM\COMMCMDS1.C(33): error C202: 'm_AreaCode': undefined identifier
+..\COMM\COMMCMDS1.C(34): error C202: 'm_UserCode': undefined identifier
+..\COMM\COMMCMDS1.C(35): error C202: 'm_UserCode': undefined identifier
+..\COMM\COMMCMDS1.C(40): error C202: 'm_BuildingNum': undefined identifier
+..\COMM\COMMCMDS1.C(45): error C202: 'm_AreaCode': undefined identifier
+..\COMM\COMMCMDS1.C(46): error C202: 'm_AreaCode': undefined identifier
+..\COMM\COMMCMDS1.C(47): error C202: 'm_UserCode': undefined identifier
+..\COMM\COMMCMDS1.C(48): error C202: 'm_UserCode': undefined identifier
+..\COMM\COMMCMDS1.C(49): error C202: 'm_BuildingNum': undefined identifier
+compiling CommCmdS2.c...
+..\MAIN\PORT.H(2): error C231: 'Signal1': redefinition
+..\MAIN\PORT.H(3): error C231: 'Signal2': redefinition
+..\MAIN\PORT.H(4): error C231: 'Signal3': redefinition
+..\MAIN\PORT.H(5): error C231: 'Signal4': redefinition
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+..\COMM\COMMCMDS2.C(18): error C202: 'RS485EN2': undefined identifier
+..\COMM\COMMCMDS2.C(45): error C202: 'm_Project': undefined identifier
+..\COMM\COMMCMDS2.C(46): error C202: 'm_AreaCode': undefined identifier
+..\COMM\COMMCMDS2.C(47): error C202: 'm_AreaCode': undefined identifier
+..\COMM\COMMCMDS2.C(48): error C202: 'm_UserCode': undefined identifier
+..\COMM\COMMCMDS2.C(49): error C202: 'm_UserCode': undefined identifier
+..\COMM\COMMCMDS2.C(50): error C202: 'm_BuildingNum': undefined identifier
+..\COMM\COMMCMDS2.C(64): error C202: 'mBeep': undefined identifier
+..\COMM\COMMCMDS2.C(74): error C202: 'm_Project': undefined identifier
+..\COMM\COMMCMDS2.C(75): error C202: 'm_AreaCode': undefined identifier
+..\COMM\COMMCMDS2.C(76): error C202: 'm_AreaCode': undefined identifier
+..\COMM\COMMCMDS2.C(77): error C202: 'm_UserCode': undefined identifier
+..\COMM\COMMCMDS2.C(78): error C202: 'm_UserCode': undefined identifier
+..\COMM\COMMCMDS2.C(79): error C202: 'm_BuildingNum': undefined identifier
+..\COMM\COMMCMDS2.C(93): error C202: 'mBeep': undefined identifier
+..\COMM\COMMCMDS2.C(103): error C202: 'm_Project': undefined identifier
+..\COMM\COMMCMDS2.C(104): error C202: 'm_AreaCode': undefined identifier
+..\COMM\COMMCMDS2.C(105): error C202: 'm_AreaCode': undefined identifier
+..\COMM\COMMCMDS2.C(106): error C202: 'm_UserCode': undefined identifier
+..\COMM\COMMCMDS2.C(107): error C202: 'm_UserCode': undefined identifier
+..\COMM\COMMCMDS2.C(108): error C202: 'm_BuildingNum': undefined identifier
+..\COMM\COMMCMDS2.C(130): error C202: 'm_Project': undefined identifier
+..\COMM\COMMCMDS2.C(131): error C202: 'm_AreaCode': undefined identifier
+..\COMM\COMMCMDS2.C(132): error C202: 'm_AreaCode': undefined identifier
+..\COMM\COMMCMDS2.C(133): error C202: 'm_UserCode': undefined identifier
+..\COMM\COMMCMDS2.C(134): error C202: 'm_UserCode': undefined identifier
+..\COMM\COMMCMDS2.C(135): error C202: 'm_BuildingNum': undefined identifier
+..\COMM\COMMCMDS2.C(162): error C202: 'm_Project': undefined identifier
+..\COMM\COMMCMDS2.C(163): error C202: 'm_AreaCode': undefined identifier
+..\COMM\COMMCMDS2.C(164): error C202: 'm_AreaCode': undefined identifier
+..\COMM\COMMCMDS2.C(165): error C202: 'm_UserCode': undefined identifier
+..\COMM\COMMCMDS2.C(166): error C202: 'm_UserCode': undefined identifier
+..\COMM\COMMCMDS2.C(167): error C202: 'm_BuildingNum': undefined identifier
+..\COMM\COMMCMDS2.C(203): error C202: 'mBeep': undefined identifier
+..\COMM\COMMCMDS2.C(216): error C202: 'm_Project': undefined identifier
+..\COMM\COMMCMDS2.C(217): error C202: 'm_AreaCode': undefined identifier
+..\COMM\COMMCMDS2.C(218): error C202: 'm_AreaCode': undefined identifier
+..\COMM\COMMCMDS2.C(219): error C202: 'm_UserCode': undefined identifier
+..\COMM\COMMCMDS2.C(220): error C202: 'm_UserCode': undefined identifier
+..\COMM\COMMCMDS2.C(221): error C202: 'm_BuildingNum': undefined identifier
+..\COMM\COMMCMDS2.C(257): error C202: 'mBeep': undefined identifier
+..\COMM\COMMCMDS2.C(270): error C202: 'm_Project': undefined identifier
+..\COMM\COMMCMDS2.C(271): error C202: 'm_AreaCode': undefined identifier
+..\COMM\COMMCMDS2.C(272): error C202: 'm_AreaCode': undefined identifier
+..\COMM\COMMCMDS2.C(273): error C202: 'm_UserCode': undefined identifier
+..\COMM\COMMCMDS2.C(274): error C202: 'm_UserCode': undefined identifier
+..\COMM\COMMCMDS2.C(275): error C202: 'm_BuildingNum': undefined identifier
+..\COMM\COMMCMDS2.C(323): error C202: 'm_Project': undefined identifier
+..\COMM\COMMCMDS2.C(324): error C202: 'm_AreaCode': undefined identifier
+..\COMM\COMMCMDS2.C(325): error C202: 'm_AreaCode': undefined identifier
+..\COMM\COMMCMDS2.C(326): error C202: 'm_UserCode': undefined identifier
+..\COMM\COMMCMDS2.C(327): error C202: 'm_UserCode': undefined identifier
+..\COMM\COMMCMDS2.C(328): error C202: 'm_BuildingNum': undefined identifier
+..\COMM\COMMCMDS2.C(376): error C202: 'm_Project': undefined identifier
+..\COMM\COMMCMDS2.C(377): error C202: 'm_AreaCode': undefined identifier
+..\COMM\COMMCMDS2.C(378): error C202: 'm_AreaCode': undefined identifier
+..\COMM\COMMCMDS2.C(379): error C202: 'm_UserCode': undefined identifier
+..\COMM\COMMCMDS2.C(380): error C202: 'm_UserCode': undefined identifier
+..\COMM\COMMCMDS2.C(381): error C202: 'm_BuildingNum': undefined identifier
+..\COMM\COMMCMDS2.C(393): error C202: 'mBeep': undefined identifier
+..\COMM\COMMCMDS2.C(405): error C202: 'm_Project': undefined identifier
+..\COMM\COMMCMDS2.C(406): error C202: 'm_AreaCode': undefined identifier
+..\COMM\COMMCMDS2.C(407): error C202: 'm_AreaCode': undefined identifier
+..\COMM\COMMCMDS2.C(408): error C202: 'm_UserCode': undefined identifier
+..\COMM\COMMCMDS2.C(409): error C202: 'm_UserCode': undefined identifier
+..\COMM\COMMCMDS2.C(410): error C202: 'm_BuildingNum': undefined identifier
+..\COMM\COMMCMDS2.C(433): error C202: 'm_Project': undefined identifier
+..\COMM\COMMCMDS2.C(434): error C202: 'm_AreaCode': undefined identifier
+..\COMM\COMMCMDS2.C(435): error C202: 'm_AreaCode': undefined identifier
+..\COMM\COMMCMDS2.C(436): error C202: 'm_UserCode': undefined identifier
+..\COMM\COMMCMDS2.C(437): error C202: 'm_UserCode': undefined identifier
+..\COMM\COMMCMDS2.C(438): error C202: 'm_BuildingNum': undefined identifier
+..\COMM\COMMCMDS2.C(461): error C202: 'm_Project': undefined identifier
+..\COMM\COMMCMDS2.C(462): error C202: 'm_AreaCode': undefined identifier
+..\COMM\COMMCMDS2.C(463): error C202: 'm_AreaCode': undefined identifier
+..\COMM\COMMCMDS2.C(464): error C202: 'm_UserCode': undefined identifier
+..\COMM\COMMCMDS2.C(465): error C202: 'm_UserCode': undefined identifier
+..\COMM\COMMCMDS2.C(466): error C202: 'm_BuildingNum': undefined identifier
+compiling serialS1.c...
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+..\MAIN\EXT_REG.H(18): error C231: 'Signal1': redefinition
+..\MAIN\EXT_REG.H(19): error C231: 'Signal2': redefinition
+..\MAIN\EXT_REG.H(20): error C231: 'Signal3': redefinition
+..\MAIN\EXT_REG.H(21): error C231: 'Signal4': redefinition
+..\COMM\SERIALS1.C(24): error C202: 'RS485EN1': undefined identifier
+..\COMM\SERIALS1.C(53): error C202: 'RS485EN1': undefined identifier
+..\COMM\SERIALS1.C(62): error C202: 'RS485EN1': undefined identifier
+compiling serialS2.c...
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+..\MAIN\EXT_REG.H(18): error C231: 'Signal1': redefinition
+..\MAIN\EXT_REG.H(19): error C231: 'Signal2': redefinition
+..\MAIN\EXT_REG.H(20): error C231: 'Signal3': redefinition
+..\MAIN\EXT_REG.H(21): error C231: 'Signal4': redefinition
+..\COMM\SERIALS2.C(25): error C202: 'RS485EN2': undefined identifier
+..\COMM\SERIALS2.C(48): error C202: 'RS485EN2': undefined identifier
+..\COMM\SERIALS2.C(57): error C202: 'RS485EN2': undefined identifier
+..\COMM\SERIALS2.C(113): error C202: 'mLED': undefined identifier
+..\COMM\SERIALS2.C(137): error C202: 'mLED': undefined identifier
+..\COMM\SERIALS2.C(161): error C202: 'mLED': undefined identifier
+..\COMM\SERIALS2.C(195): error C202: 'mLED1': undefined identifier
+..\COMM\SERIALS2.C(220): error C202: 'mLED2': undefined identifier
+compiling CommCmdAll.c...
+..\MAIN\PORT.H(2): error C231: 'Signal1': redefinition
+..\MAIN\PORT.H(3): error C231: 'Signal2': redefinition
+..\MAIN\PORT.H(4): error C231: 'Signal3': redefinition
+..\MAIN\PORT.H(5): error C231: 'Signal4': redefinition
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+compiling CommCmdS3.c...
+..\MAIN\PORT.H(2): error C231: 'Signal1': redefinition
+..\MAIN\PORT.H(3): error C231: 'Signal2': redefinition
+..\MAIN\PORT.H(4): error C231: 'Signal3': redefinition
+..\MAIN\PORT.H(5): error C231: 'Signal4': redefinition
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+compiling CommCmdS4.c...
+..\MAIN\PORT.H(2): error C231: 'Signal1': redefinition
+..\MAIN\PORT.H(3): error C231: 'Signal2': redefinition
+..\MAIN\PORT.H(4): error C231: 'Signal3': redefinition
+..\MAIN\PORT.H(5): error C231: 'Signal4': redefinition
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+compiling serialS3.c...
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+..\MAIN\EXT_REG.H(18): error C231: 'Signal1': redefinition
+..\MAIN\EXT_REG.H(19): error C231: 'Signal2': redefinition
+..\MAIN\EXT_REG.H(20): error C231: 'Signal3': redefinition
+..\MAIN\EXT_REG.H(21): error C231: 'Signal4': redefinition
+..\COMM\SERIALS3.C(29): error C202: 'RS485EN2': undefined identifier
+..\COMM\SERIALS3.C(40): error C202: 'RS485EN2': undefined identifier
+..\COMM\SERIALS3.C(49): error C202: 'RS485EN2': undefined identifier
+..\COMM\SERIALS3.C(86): error C202: 'H_TerCode': undefined identifier
+..\COMM\SERIALS3.C(87): error C202: 'L_TerCode': undefined identifier
+..\COMM\SERIALS3.C(97): error C202: 'mLED': undefined identifier
+compiling serialS4.c...
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+..\MAIN\EXT_REG.H(18): error C231: 'Signal1': redefinition
+..\MAIN\EXT_REG.H(19): error C231: 'Signal2': redefinition
+..\MAIN\EXT_REG.H(20): error C231: 'Signal3': redefinition
+..\MAIN\EXT_REG.H(21): error C231: 'Signal4': redefinition
+..\COMM\SERIALS4.C(37): error C202: 'RS485EN3': undefined identifier
+..\COMM\SERIALS4.C(60): error C202: 'mLED': undefined identifier
+..\COMM\SERIALS4.C(82): error C202: 'H_TerCode': undefined identifier
+..\COMM\SERIALS4.C(83): error C202: 'L_TerCode': undefined identifier
+..\COMM\SERIALS4.C(93): error C202: 'mLED': undefined identifier
+compiling Input.c...
+..\MAIN\PORT.H(2): error C231: 'Signal1': redefinition
+..\MAIN\PORT.H(3): error C231: 'Signal2': redefinition
+..\MAIN\PORT.H(4): error C231: 'Signal3': redefinition
+..\MAIN\PORT.H(5): error C231: 'Signal4': redefinition
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+..\INPUT\INPUT.C(10): error C202: 'Koncentrator_Delay': undefined identifier
+..\INPUT\INPUT.C(11): error C202: 'Step_Koncentrator': undefined identifier
+compiling Output.c...
+..\MAIN\PORT.H(2): error C231: 'Signal1': redefinition
+..\MAIN\PORT.H(3): error C231: 'Signal2': redefinition
+..\MAIN\PORT.H(4): error C231: 'Signal3': redefinition
+..\MAIN\PORT.H(5): error C231: 'Signal4': redefinition
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+compiling beep.c...
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+..\MAIN\EXT_REG.H(18): error C231: 'Signal1': redefinition
+..\MAIN\EXT_REG.H(19): error C231: 'Signal2': redefinition
+..\MAIN\EXT_REG.H(20): error C231: 'Signal3': redefinition
+..\MAIN\EXT_REG.H(21): error C231: 'Signal4': redefinition
+..\OUTPUT\BEEP.C(8): error C202: 'mLED': undefined identifier
+..\OUTPUT\BEEP.C(13): error C202: 'mLED': undefined identifier
+..\OUTPUT\BEEP.C(15): error C202: 'mLED': undefined identifier
+..\OUTPUT\BEEP.C(26): error C202: 'LED': undefined identifier
+..\OUTPUT\BEEP.C(32): error C202: 'LED': undefined identifier
+compiling FlashRom.c...
+compiling memory.c...
+Target not created
+Build target 'Gateway'
+compiling Main.c...
+..\MAIN\PORT.H(2): error C231: 'Signal1': redefinition
+..\MAIN\PORT.H(3): error C231: 'Signal2': redefinition
+..\MAIN\PORT.H(4): error C231: 'Signal3': redefinition
+..\MAIN\PORT.H(5): error C231: 'Signal4': redefinition
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+compiling hSch51.c...
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+..\MAIN\EXT_REG.H(18): error C231: 'Signal1': redefinition
+..\MAIN\EXT_REG.H(19): error C231: 'Signal2': redefinition
+..\MAIN\EXT_REG.H(20): error C231: 'Signal3': redefinition
+..\MAIN\EXT_REG.H(21): error C231: 'Signal4': redefinition
+compiling CommCmdS1.c...
+..\MAIN\PORT.H(2): error C231: 'Signal1': redefinition
+..\MAIN\PORT.H(3): error C231: 'Signal2': redefinition
+..\MAIN\PORT.H(4): error C231: 'Signal3': redefinition
+..\MAIN\PORT.H(5): error C231: 'Signal4': redefinition
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+compiling CommCmdS2.c...
+..\MAIN\PORT.H(2): error C231: 'Signal1': redefinition
+..\MAIN\PORT.H(3): error C231: 'Signal2': redefinition
+..\MAIN\PORT.H(4): error C231: 'Signal3': redefinition
+..\MAIN\PORT.H(5): error C231: 'Signal4': redefinition
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+compiling serialS1.c...
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+..\MAIN\EXT_REG.H(18): error C231: 'Signal1': redefinition
+..\MAIN\EXT_REG.H(19): error C231: 'Signal2': redefinition
+..\MAIN\EXT_REG.H(20): error C231: 'Signal3': redefinition
+..\MAIN\EXT_REG.H(21): error C231: 'Signal4': redefinition
+..\COMM\SERIALS1.C(24): error C202: 'RS485EN1': undefined identifier
+..\COMM\SERIALS1.C(37): error C202: 'RS485EN1': undefined identifier
+..\COMM\SERIALS1.C(46): error C202: 'RS485EN1': undefined identifier
+compiling serialS2.c...
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+..\MAIN\EXT_REG.H(18): error C231: 'Signal1': redefinition
+..\MAIN\EXT_REG.H(19): error C231: 'Signal2': redefinition
+..\MAIN\EXT_REG.H(20): error C231: 'Signal3': redefinition
+..\MAIN\EXT_REG.H(21): error C231: 'Signal4': redefinition
+..\COMM\SERIALS2.C(25): error C202: 'RS485EN2': undefined identifier
+..\COMM\SERIALS2.C(48): error C202: 'RS485EN2': undefined identifier
+..\COMM\SERIALS2.C(57): error C202: 'RS485EN2': undefined identifier
+..\COMM\SERIALS2.C(113): error C202: 'mLED': undefined identifier
+..\COMM\SERIALS2.C(137): error C202: 'mLED': undefined identifier
+..\COMM\SERIALS2.C(161): error C202: 'mLED': undefined identifier
+..\COMM\SERIALS2.C(195): error C202: 'mLED1': undefined identifier
+..\COMM\SERIALS2.C(220): error C202: 'mLED2': undefined identifier
+compiling CommCmdAll.c...
+..\MAIN\PORT.H(2): error C231: 'Signal1': redefinition
+..\MAIN\PORT.H(3): error C231: 'Signal2': redefinition
+..\MAIN\PORT.H(4): error C231: 'Signal3': redefinition
+..\MAIN\PORT.H(5): error C231: 'Signal4': redefinition
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+compiling CommCmdS3.c...
+..\MAIN\PORT.H(2): error C231: 'Signal1': redefinition
+..\MAIN\PORT.H(3): error C231: 'Signal2': redefinition
+..\MAIN\PORT.H(4): error C231: 'Signal3': redefinition
+..\MAIN\PORT.H(5): error C231: 'Signal4': redefinition
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+compiling CommCmdS4.c...
+..\MAIN\PORT.H(2): error C231: 'Signal1': redefinition
+..\MAIN\PORT.H(3): error C231: 'Signal2': redefinition
+..\MAIN\PORT.H(4): error C231: 'Signal3': redefinition
+..\MAIN\PORT.H(5): error C231: 'Signal4': redefinition
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+compiling serialS3.c...
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+..\MAIN\EXT_REG.H(18): error C231: 'Signal1': redefinition
+..\MAIN\EXT_REG.H(19): error C231: 'Signal2': redefinition
+..\MAIN\EXT_REG.H(20): error C231: 'Signal3': redefinition
+..\MAIN\EXT_REG.H(21): error C231: 'Signal4': redefinition
+..\COMM\SERIALS3.C(29): error C202: 'RS485EN2': undefined identifier
+..\COMM\SERIALS3.C(40): error C202: 'RS485EN2': undefined identifier
+..\COMM\SERIALS3.C(49): error C202: 'RS485EN2': undefined identifier
+..\COMM\SERIALS3.C(86): error C202: 'H_TerCode': undefined identifier
+..\COMM\SERIALS3.C(87): error C202: 'L_TerCode': undefined identifier
+..\COMM\SERIALS3.C(97): error C202: 'mLED': undefined identifier
+compiling serialS4.c...
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+..\MAIN\EXT_REG.H(18): error C231: 'Signal1': redefinition
+..\MAIN\EXT_REG.H(19): error C231: 'Signal2': redefinition
+..\MAIN\EXT_REG.H(20): error C231: 'Signal3': redefinition
+..\MAIN\EXT_REG.H(21): error C231: 'Signal4': redefinition
+..\COMM\SERIALS4.C(37): error C202: 'RS485EN3': undefined identifier
+..\COMM\SERIALS4.C(60): error C202: 'mLED': undefined identifier
+..\COMM\SERIALS4.C(82): error C202: 'H_TerCode': undefined identifier
+..\COMM\SERIALS4.C(83): error C202: 'L_TerCode': undefined identifier
+..\COMM\SERIALS4.C(93): error C202: 'mLED': undefined identifier
+compiling Input.c...
+..\MAIN\PORT.H(2): error C231: 'Signal1': redefinition
+..\MAIN\PORT.H(3): error C231: 'Signal2': redefinition
+..\MAIN\PORT.H(4): error C231: 'Signal3': redefinition
+..\MAIN\PORT.H(5): error C231: 'Signal4': redefinition
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+..\INPUT\INPUT.C(10): error C202: 'Koncentrator_Delay': undefined identifier
+..\INPUT\INPUT.C(11): error C202: 'Step_Koncentrator': undefined identifier
+compiling Output.c...
+..\MAIN\PORT.H(2): error C231: 'Signal1': redefinition
+..\MAIN\PORT.H(3): error C231: 'Signal2': redefinition
+..\MAIN\PORT.H(4): error C231: 'Signal3': redefinition
+..\MAIN\PORT.H(5): error C231: 'Signal4': redefinition
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+compiling beep.c...
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+..\MAIN\EXT_REG.H(18): error C231: 'Signal1': redefinition
+..\MAIN\EXT_REG.H(19): error C231: 'Signal2': redefinition
+..\MAIN\EXT_REG.H(20): error C231: 'Signal3': redefinition
+..\MAIN\EXT_REG.H(21): error C231: 'Signal4': redefinition
+..\OUTPUT\BEEP.C(8): error C202: 'mLED': undefined identifier
+..\OUTPUT\BEEP.C(13): error C202: 'mLED': undefined identifier
+..\OUTPUT\BEEP.C(15): error C202: 'mLED': undefined identifier
+..\OUTPUT\BEEP.C(26): error C202: 'LED': undefined identifier
+..\OUTPUT\BEEP.C(32): error C202: 'LED': undefined identifier
+Target not created
+Build target 'Gateway'
+compiling Main.c...
+..\MAIN\PORT.H(2): error C231: 'Signal1': redefinition
+..\MAIN\PORT.H(3): error C231: 'Signal2': redefinition
+..\MAIN\PORT.H(4): error C231: 'Signal3': redefinition
+..\MAIN\PORT.H(5): error C231: 'Signal4': redefinition
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+compiling 0_02_11h.C...
+compiling hSch51.c...
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+..\MAIN\EXT_REG.H(18): error C231: 'Signal1': redefinition
+..\MAIN\EXT_REG.H(19): error C231: 'Signal2': redefinition
+..\MAIN\EXT_REG.H(20): error C231: 'Signal3': redefinition
+..\MAIN\EXT_REG.H(21): error C231: 'Signal4': redefinition
+compiling CommCmdS1.c...
+..\MAIN\PORT.H(2): error C231: 'Signal1': redefinition
+..\MAIN\PORT.H(3): error C231: 'Signal2': redefinition
+..\MAIN\PORT.H(4): error C231: 'Signal3': redefinition
+..\MAIN\PORT.H(5): error C231: 'Signal4': redefinition
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+compiling CommCmdS2.c...
+..\MAIN\PORT.H(2): error C231: 'Signal1': redefinition
+..\MAIN\PORT.H(3): error C231: 'Signal2': redefinition
+..\MAIN\PORT.H(4): error C231: 'Signal3': redefinition
+..\MAIN\PORT.H(5): error C231: 'Signal4': redefinition
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+compiling serialS1.c...
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+..\MAIN\EXT_REG.H(18): error C231: 'Signal1': redefinition
+..\MAIN\EXT_REG.H(19): error C231: 'Signal2': redefinition
+..\MAIN\EXT_REG.H(20): error C231: 'Signal3': redefinition
+..\MAIN\EXT_REG.H(21): error C231: 'Signal4': redefinition
+..\COMM\SERIALS1.C(24): error C202: 'RS485EN1': undefined identifier
+..\COMM\SERIALS1.C(37): error C202: 'RS485EN1': undefined identifier
+..\COMM\SERIALS1.C(46): error C202: 'RS485EN1': undefined identifier
+..\COMM\SERIALS1.C(111): error C202: 'mLED3': undefined identifier
+compiling serialS2.c...
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+..\MAIN\EXT_REG.H(18): error C231: 'Signal1': redefinition
+..\MAIN\EXT_REG.H(19): error C231: 'Signal2': redefinition
+..\MAIN\EXT_REG.H(20): error C231: 'Signal3': redefinition
+..\MAIN\EXT_REG.H(21): error C231: 'Signal4': redefinition
+..\COMM\SERIALS2.C(25): error C202: 'RS485EN2': undefined identifier
+..\COMM\SERIALS2.C(48): error C202: 'RS485EN2': undefined identifier
+..\COMM\SERIALS2.C(57): error C202: 'RS485EN2': undefined identifier
+..\COMM\SERIALS2.C(195): error C202: 'mLED1': undefined identifier
+..\COMM\SERIALS2.C(220): error C202: 'mLED2': undefined identifier
+compiling CommCmdAll.c...
+..\MAIN\PORT.H(2): error C231: 'Signal1': redefinition
+..\MAIN\PORT.H(3): error C231: 'Signal2': redefinition
+..\MAIN\PORT.H(4): error C231: 'Signal3': redefinition
+..\MAIN\PORT.H(5): error C231: 'Signal4': redefinition
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+compiling CommCmdS3.c...
+..\MAIN\PORT.H(2): error C231: 'Signal1': redefinition
+..\MAIN\PORT.H(3): error C231: 'Signal2': redefinition
+..\MAIN\PORT.H(4): error C231: 'Signal3': redefinition
+..\MAIN\PORT.H(5): error C231: 'Signal4': redefinition
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+compiling CommCmdS4.c...
+..\MAIN\PORT.H(2): error C231: 'Signal1': redefinition
+..\MAIN\PORT.H(3): error C231: 'Signal2': redefinition
+..\MAIN\PORT.H(4): error C231: 'Signal3': redefinition
+..\MAIN\PORT.H(5): error C231: 'Signal4': redefinition
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+compiling serialS3.c...
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+..\MAIN\EXT_REG.H(18): error C231: 'Signal1': redefinition
+..\MAIN\EXT_REG.H(19): error C231: 'Signal2': redefinition
+..\MAIN\EXT_REG.H(20): error C231: 'Signal3': redefinition
+..\MAIN\EXT_REG.H(21): error C231: 'Signal4': redefinition
+..\COMM\SERIALS3.C(29): error C202: 'RS485EN2': undefined identifier
+..\COMM\SERIALS3.C(40): error C202: 'RS485EN2': undefined identifier
+..\COMM\SERIALS3.C(49): error C202: 'RS485EN2': undefined identifier
+..\COMM\SERIALS3.C(86): error C202: 'H_TerCode': undefined identifier
+..\COMM\SERIALS3.C(87): error C202: 'L_TerCode': undefined identifier
+compiling serialS4.c...
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+..\MAIN\EXT_REG.H(18): error C231: 'Signal1': redefinition
+..\MAIN\EXT_REG.H(19): error C231: 'Signal2': redefinition
+..\MAIN\EXT_REG.H(20): error C231: 'Signal3': redefinition
+..\MAIN\EXT_REG.H(21): error C231: 'Signal4': redefinition
+..\COMM\SERIALS4.C(37): error C202: 'RS485EN3': undefined identifier
+..\COMM\SERIALS4.C(82): error C202: 'H_TerCode': undefined identifier
+..\COMM\SERIALS4.C(83): error C202: 'L_TerCode': undefined identifier
+compiling Input.c...
+..\MAIN\PORT.H(2): error C231: 'Signal1': redefinition
+..\MAIN\PORT.H(3): error C231: 'Signal2': redefinition
+..\MAIN\PORT.H(4): error C231: 'Signal3': redefinition
+..\MAIN\PORT.H(5): error C231: 'Signal4': redefinition
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+..\INPUT\INPUT.C(10): error C202: 'Koncentrator_Delay': undefined identifier
+..\INPUT\INPUT.C(11): error C202: 'Step_Koncentrator': undefined identifier
+compiling Output.c...
+..\MAIN\PORT.H(2): error C231: 'Signal1': redefinition
+..\MAIN\PORT.H(3): error C231: 'Signal2': redefinition
+..\MAIN\PORT.H(4): error C231: 'Signal3': redefinition
+..\MAIN\PORT.H(5): error C231: 'Signal4': redefinition
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+compiling beep.c...
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+..\MAIN\EXT_REG.H(18): error C231: 'Signal1': redefinition
+..\MAIN\EXT_REG.H(19): error C231: 'Signal2': redefinition
+..\MAIN\EXT_REG.H(20): error C231: 'Signal3': redefinition
+..\MAIN\EXT_REG.H(21): error C231: 'Signal4': redefinition
+..\OUTPUT\BEEP.C(26): error C202: 'LED': undefined identifier
+..\OUTPUT\BEEP.C(32): error C202: 'LED': undefined identifier
+compiling FlashRom.c...
+compiling memory.c...
+Target not created
+Build target 'Gateway'
+compiling Main.c...
+..\MAIN\PORT.H(2): error C231: 'Signal1': redefinition
+..\MAIN\PORT.H(3): error C231: 'Signal2': redefinition
+..\MAIN\PORT.H(4): error C231: 'Signal3': redefinition
+..\MAIN\PORT.H(5): error C231: 'Signal4': redefinition
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+compiling hSch51.c...
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+..\MAIN\EXT_REG.H(18): error C231: 'Signal1': redefinition
+..\MAIN\EXT_REG.H(19): error C231: 'Signal2': redefinition
+..\MAIN\EXT_REG.H(20): error C231: 'Signal3': redefinition
+..\MAIN\EXT_REG.H(21): error C231: 'Signal4': redefinition
+compiling CommCmdS1.c...
+..\MAIN\PORT.H(2): error C231: 'Signal1': redefinition
+..\MAIN\PORT.H(3): error C231: 'Signal2': redefinition
+..\MAIN\PORT.H(4): error C231: 'Signal3': redefinition
+..\MAIN\PORT.H(5): error C231: 'Signal4': redefinition
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+compiling CommCmdS2.c...
+..\MAIN\PORT.H(2): error C231: 'Signal1': redefinition
+..\MAIN\PORT.H(3): error C231: 'Signal2': redefinition
+..\MAIN\PORT.H(4): error C231: 'Signal3': redefinition
+..\MAIN\PORT.H(5): error C231: 'Signal4': redefinition
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+compiling serialS1.c...
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+..\MAIN\EXT_REG.H(18): error C231: 'Signal1': redefinition
+..\MAIN\EXT_REG.H(19): error C231: 'Signal2': redefinition
+..\MAIN\EXT_REG.H(20): error C231: 'Signal3': redefinition
+..\MAIN\EXT_REG.H(21): error C231: 'Signal4': redefinition
+..\COMM\SERIALS1.C(24): error C202: 'RS485EN1': undefined identifier
+..\COMM\SERIALS1.C(37): error C202: 'RS485EN1': undefined identifier
+..\COMM\SERIALS1.C(46): error C202: 'RS485EN1': undefined identifier
+..\COMM\SERIALS1.C(111): error C202: 'mLED3': undefined identifier
+compiling serialS2.c...
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+..\MAIN\EXT_REG.H(18): error C231: 'Signal1': redefinition
+..\MAIN\EXT_REG.H(19): error C231: 'Signal2': redefinition
+..\MAIN\EXT_REG.H(20): error C231: 'Signal3': redefinition
+..\MAIN\EXT_REG.H(21): error C231: 'Signal4': redefinition
+..\COMM\SERIALS2.C(25): error C202: 'RS485EN2': undefined identifier
+..\COMM\SERIALS2.C(48): error C202: 'RS485EN2': undefined identifier
+..\COMM\SERIALS2.C(57): error C202: 'RS485EN2': undefined identifier
+..\COMM\SERIALS2.C(195): error C202: 'mLED1': undefined identifier
+..\COMM\SERIALS2.C(220): error C202: 'mLED2': undefined identifier
+compiling CommCmdAll.c...
+..\MAIN\PORT.H(2): error C231: 'Signal1': redefinition
+..\MAIN\PORT.H(3): error C231: 'Signal2': redefinition
+..\MAIN\PORT.H(4): error C231: 'Signal3': redefinition
+..\MAIN\PORT.H(5): error C231: 'Signal4': redefinition
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+compiling CommCmdS3.c...
+..\MAIN\PORT.H(2): error C231: 'Signal1': redefinition
+..\MAIN\PORT.H(3): error C231: 'Signal2': redefinition
+..\MAIN\PORT.H(4): error C231: 'Signal3': redefinition
+..\MAIN\PORT.H(5): error C231: 'Signal4': redefinition
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+compiling CommCmdS4.c...
+..\MAIN\PORT.H(2): error C231: 'Signal1': redefinition
+..\MAIN\PORT.H(3): error C231: 'Signal2': redefinition
+..\MAIN\PORT.H(4): error C231: 'Signal3': redefinition
+..\MAIN\PORT.H(5): error C231: 'Signal4': redefinition
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+compiling serialS3.c...
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+..\MAIN\EXT_REG.H(18): error C231: 'Signal1': redefinition
+..\MAIN\EXT_REG.H(19): error C231: 'Signal2': redefinition
+..\MAIN\EXT_REG.H(20): error C231: 'Signal3': redefinition
+..\MAIN\EXT_REG.H(21): error C231: 'Signal4': redefinition
+..\COMM\SERIALS3.C(29): error C202: 'RS485EN2': undefined identifier
+..\COMM\SERIALS3.C(40): error C202: 'RS485EN2': undefined identifier
+..\COMM\SERIALS3.C(49): error C202: 'RS485EN2': undefined identifier
+..\COMM\SERIALS3.C(86): error C202: 'H_TerCode': undefined identifier
+..\COMM\SERIALS3.C(87): error C202: 'L_TerCode': undefined identifier
+compiling serialS4.c...
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+..\MAIN\EXT_REG.H(18): error C231: 'Signal1': redefinition
+..\MAIN\EXT_REG.H(19): error C231: 'Signal2': redefinition
+..\MAIN\EXT_REG.H(20): error C231: 'Signal3': redefinition
+..\MAIN\EXT_REG.H(21): error C231: 'Signal4': redefinition
+..\COMM\SERIALS4.C(37): error C202: 'RS485EN3': undefined identifier
+..\COMM\SERIALS4.C(82): error C202: 'H_TerCode': undefined identifier
+..\COMM\SERIALS4.C(83): error C202: 'L_TerCode': undefined identifier
+compiling Input.c...
+..\MAIN\PORT.H(2): error C231: 'Signal1': redefinition
+..\MAIN\PORT.H(3): error C231: 'Signal2': redefinition
+..\MAIN\PORT.H(4): error C231: 'Signal3': redefinition
+..\MAIN\PORT.H(5): error C231: 'Signal4': redefinition
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+..\INPUT\INPUT.C(10): error C202: 'Koncentrator_Delay': undefined identifier
+..\INPUT\INPUT.C(11): error C202: 'Step_Koncentrator': undefined identifier
+compiling Output.c...
+..\MAIN\PORT.H(2): error C231: 'Signal1': redefinition
+..\MAIN\PORT.H(3): error C231: 'Signal2': redefinition
+..\MAIN\PORT.H(4): error C231: 'Signal3': redefinition
+..\MAIN\PORT.H(5): error C231: 'Signal4': redefinition
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+compiling beep.c...
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+..\MAIN\EXT_REG.H(18): error C231: 'Signal1': redefinition
+..\MAIN\EXT_REG.H(19): error C231: 'Signal2': redefinition
+..\MAIN\EXT_REG.H(20): error C231: 'Signal3': redefinition
+..\MAIN\EXT_REG.H(21): error C231: 'Signal4': redefinition
+..\OUTPUT\BEEP.C(26): error C202: 'LED': undefined identifier
+..\OUTPUT\BEEP.C(32): error C202: 'LED': undefined identifier
+Target not created
+Clean started: Project: 'Koncentrator'
+   deleting intermediate output files for target 'Gateway'
+Build target 'Gateway'
+compiling Main.c...
+..\MAIN\PORT.H(2): error C231: 'Signal1': redefinition
+..\MAIN\PORT.H(3): error C231: 'Signal2': redefinition
+..\MAIN\PORT.H(4): error C231: 'Signal3': redefinition
+..\MAIN\PORT.H(5): error C231: 'Signal4': redefinition
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+compiling 0_02_11h.C...
+compiling hSch51.c...
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+..\MAIN\EXT_REG.H(18): error C231: 'Signal1': redefinition
+..\MAIN\EXT_REG.H(19): error C231: 'Signal2': redefinition
+..\MAIN\EXT_REG.H(20): error C231: 'Signal3': redefinition
+..\MAIN\EXT_REG.H(21): error C231: 'Signal4': redefinition
+compiling CommCmdS1.c...
+..\MAIN\PORT.H(2): error C231: 'Signal1': redefinition
+..\MAIN\PORT.H(3): error C231: 'Signal2': redefinition
+..\MAIN\PORT.H(4): error C231: 'Signal3': redefinition
+..\MAIN\PORT.H(5): error C231: 'Signal4': redefinition
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+compiling CommCmdS2.c...
+..\MAIN\PORT.H(2): error C231: 'Signal1': redefinition
+..\MAIN\PORT.H(3): error C231: 'Signal2': redefinition
+..\MAIN\PORT.H(4): error C231: 'Signal3': redefinition
+..\MAIN\PORT.H(5): error C231: 'Signal4': redefinition
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+compiling serialS1.c...
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+..\MAIN\EXT_REG.H(18): error C231: 'Signal1': redefinition
+..\MAIN\EXT_REG.H(19): error C231: 'Signal2': redefinition
+..\MAIN\EXT_REG.H(20): error C231: 'Signal3': redefinition
+..\MAIN\EXT_REG.H(21): error C231: 'Signal4': redefinition
+..\COMM\SERIALS1.C(24): error C202: 'RS485EN1': undefined identifier
+..\COMM\SERIALS1.C(37): error C202: 'RS485EN1': undefined identifier
+..\COMM\SERIALS1.C(46): error C202: 'RS485EN1': undefined identifier
+..\COMM\SERIALS1.C(111): error C202: 'mLED3': undefined identifier
+compiling serialS2.c...
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+..\MAIN\EXT_REG.H(18): error C231: 'Signal1': redefinition
+..\MAIN\EXT_REG.H(19): error C231: 'Signal2': redefinition
+..\MAIN\EXT_REG.H(20): error C231: 'Signal3': redefinition
+..\MAIN\EXT_REG.H(21): error C231: 'Signal4': redefinition
+..\COMM\SERIALS2.C(25): error C202: 'RS485EN2': undefined identifier
+..\COMM\SERIALS2.C(48): error C202: 'RS485EN2': undefined identifier
+..\COMM\SERIALS2.C(57): error C202: 'RS485EN2': undefined identifier
+..\COMM\SERIALS2.C(195): error C202: 'mLED1': undefined identifier
+..\COMM\SERIALS2.C(220): error C202: 'mLED2': undefined identifier
+compiling CommCmdAll.c...
+..\MAIN\PORT.H(2): error C231: 'Signal1': redefinition
+..\MAIN\PORT.H(3): error C231: 'Signal2': redefinition
+..\MAIN\PORT.H(4): error C231: 'Signal3': redefinition
+..\MAIN\PORT.H(5): error C231: 'Signal4': redefinition
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+compiling CommCmdS3.c...
+..\MAIN\PORT.H(2): error C231: 'Signal1': redefinition
+..\MAIN\PORT.H(3): error C231: 'Signal2': redefinition
+..\MAIN\PORT.H(4): error C231: 'Signal3': redefinition
+..\MAIN\PORT.H(5): error C231: 'Signal4': redefinition
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+compiling CommCmdS4.c...
+..\MAIN\PORT.H(2): error C231: 'Signal1': redefinition
+..\MAIN\PORT.H(3): error C231: 'Signal2': redefinition
+..\MAIN\PORT.H(4): error C231: 'Signal3': redefinition
+..\MAIN\PORT.H(5): error C231: 'Signal4': redefinition
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+compiling serialS3.c...
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+..\MAIN\EXT_REG.H(18): error C231: 'Signal1': redefinition
+..\MAIN\EXT_REG.H(19): error C231: 'Signal2': redefinition
+..\MAIN\EXT_REG.H(20): error C231: 'Signal3': redefinition
+..\MAIN\EXT_REG.H(21): error C231: 'Signal4': redefinition
+..\COMM\SERIALS3.C(38): error C202: 'RS485EN2': undefined identifier
+..\COMM\SERIALS3.C(47): error C202: 'RS485EN2': undefined identifier
+compiling serialS4.c...
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+..\MAIN\EXT_REG.H(18): error C231: 'Signal1': redefinition
+..\MAIN\EXT_REG.H(19): error C231: 'Signal2': redefinition
+..\MAIN\EXT_REG.H(20): error C231: 'Signal3': redefinition
+..\MAIN\EXT_REG.H(21): error C231: 'Signal4': redefinition
+..\COMM\SERIALS4.C(37): error C202: 'RS485EN3': undefined identifier
+..\COMM\SERIALS4.C(82): error C202: 'H_TerCode': undefined identifier
+..\COMM\SERIALS4.C(83): error C202: 'L_TerCode': undefined identifier
+compiling Input.c...
+..\MAIN\PORT.H(2): error C231: 'Signal1': redefinition
+..\MAIN\PORT.H(3): error C231: 'Signal2': redefinition
+..\MAIN\PORT.H(4): error C231: 'Signal3': redefinition
+..\MAIN\PORT.H(5): error C231: 'Signal4': redefinition
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+..\INPUT\INPUT.C(10): error C202: 'Koncentrator_Delay': undefined identifier
+..\INPUT\INPUT.C(11): error C202: 'Step_Koncentrator': undefined identifier
+compiling Output.c...
+..\MAIN\PORT.H(2): error C231: 'Signal1': redefinition
+..\MAIN\PORT.H(3): error C231: 'Signal2': redefinition
+..\MAIN\PORT.H(4): error C231: 'Signal3': redefinition
+..\MAIN\PORT.H(5): error C231: 'Signal4': redefinition
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+compiling beep.c...
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+..\MAIN\EXT_REG.H(18): error C231: 'Signal1': redefinition
+..\MAIN\EXT_REG.H(19): error C231: 'Signal2': redefinition
+..\MAIN\EXT_REG.H(20): error C231: 'Signal3': redefinition
+..\MAIN\EXT_REG.H(21): error C231: 'Signal4': redefinition
+..\OUTPUT\BEEP.C(26): error C202: 'LED': undefined identifier
+..\OUTPUT\BEEP.C(32): error C202: 'LED': undefined identifier
+compiling FlashRom.c...
+compiling memory.c...
+Target not created
+Build target 'Gateway'
+compiling Main.c...
+..\MAIN\PORT.H(2): error C231: 'Signal1': redefinition
+..\MAIN\PORT.H(3): error C231: 'Signal2': redefinition
+..\MAIN\PORT.H(4): error C231: 'Signal3': redefinition
+..\MAIN\PORT.H(5): error C231: 'Signal4': redefinition
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+compiling 0_02_11h.C...
+compiling hSch51.c...
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+..\MAIN\EXT_REG.H(18): error C231: 'Signal1': redefinition
+..\MAIN\EXT_REG.H(19): error C231: 'Signal2': redefinition
+..\MAIN\EXT_REG.H(20): error C231: 'Signal3': redefinition
+..\MAIN\EXT_REG.H(21): error C231: 'Signal4': redefinition
+compiling CommCmdS1.c...
+..\MAIN\PORT.H(2): error C231: 'Signal1': redefinition
+..\MAIN\PORT.H(3): error C231: 'Signal2': redefinition
+..\MAIN\PORT.H(4): error C231: 'Signal3': redefinition
+..\MAIN\PORT.H(5): error C231: 'Signal4': redefinition
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+compiling CommCmdS2.c...
+..\MAIN\PORT.H(2): error C231: 'Signal1': redefinition
+..\MAIN\PORT.H(3): error C231: 'Signal2': redefinition
+..\MAIN\PORT.H(4): error C231: 'Signal3': redefinition
+..\MAIN\PORT.H(5): error C231: 'Signal4': redefinition
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+compiling serialS1.c...
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+..\MAIN\EXT_REG.H(18): error C231: 'Signal1': redefinition
+..\MAIN\EXT_REG.H(19): error C231: 'Signal2': redefinition
+..\MAIN\EXT_REG.H(20): error C231: 'Signal3': redefinition
+..\MAIN\EXT_REG.H(21): error C231: 'Signal4': redefinition
+..\COMM\SERIALS1.C(24): error C202: 'RS485EN1': undefined identifier
+..\COMM\SERIALS1.C(37): error C202: 'RS485EN1': undefined identifier
+..\COMM\SERIALS1.C(46): error C202: 'RS485EN1': undefined identifier
+..\COMM\SERIALS1.C(111): error C202: 'mLED3': undefined identifier
+compiling serialS2.c...
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+..\MAIN\EXT_REG.H(18): error C231: 'Signal1': redefinition
+..\MAIN\EXT_REG.H(19): error C231: 'Signal2': redefinition
+..\MAIN\EXT_REG.H(20): error C231: 'Signal3': redefinition
+..\MAIN\EXT_REG.H(21): error C231: 'Signal4': redefinition
+..\COMM\SERIALS2.C(25): error C202: 'RS485EN2': undefined identifier
+..\COMM\SERIALS2.C(48): error C202: 'RS485EN2': undefined identifier
+..\COMM\SERIALS2.C(57): error C202: 'RS485EN2': undefined identifier
+..\COMM\SERIALS2.C(195): error C202: 'mLED1': undefined identifier
+..\COMM\SERIALS2.C(220): error C202: 'mLED2': undefined identifier
+compiling CommCmdAll.c...
+..\MAIN\PORT.H(2): error C231: 'Signal1': redefinition
+..\MAIN\PORT.H(3): error C231: 'Signal2': redefinition
+..\MAIN\PORT.H(4): error C231: 'Signal3': redefinition
+..\MAIN\PORT.H(5): error C231: 'Signal4': redefinition
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+compiling CommCmdS3.c...
+..\MAIN\PORT.H(2): error C231: 'Signal1': redefinition
+..\MAIN\PORT.H(3): error C231: 'Signal2': redefinition
+..\MAIN\PORT.H(4): error C231: 'Signal3': redefinition
+..\MAIN\PORT.H(5): error C231: 'Signal4': redefinition
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+compiling CommCmdS4.c...
+..\MAIN\PORT.H(2): error C231: 'Signal1': redefinition
+..\MAIN\PORT.H(3): error C231: 'Signal2': redefinition
+..\MAIN\PORT.H(4): error C231: 'Signal3': redefinition
+..\MAIN\PORT.H(5): error C231: 'Signal4': redefinition
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+compiling serialS3.c...
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+..\MAIN\EXT_REG.H(18): error C231: 'Signal1': redefinition
+..\MAIN\EXT_REG.H(19): error C231: 'Signal2': redefinition
+..\MAIN\EXT_REG.H(20): error C231: 'Signal3': redefinition
+..\MAIN\EXT_REG.H(21): error C231: 'Signal4': redefinition
+..\COMM\SERIALS3.C(38): error C202: 'RS485EN2': undefined identifier
+..\COMM\SERIALS3.C(47): error C202: 'RS485EN2': undefined identifier
+compiling serialS4.c...
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+..\MAIN\EXT_REG.H(18): error C231: 'Signal1': redefinition
+..\MAIN\EXT_REG.H(19): error C231: 'Signal2': redefinition
+..\MAIN\EXT_REG.H(20): error C231: 'Signal3': redefinition
+..\MAIN\EXT_REG.H(21): error C231: 'Signal4': redefinition
+..\COMM\SERIALS4.C(37): error C202: 'RS485EN3': undefined identifier
+..\COMM\SERIALS4.C(82): error C202: 'H_TerCode': undefined identifier
+..\COMM\SERIALS4.C(83): error C202: 'L_TerCode': undefined identifier
+compiling Input.c...
+..\MAIN\PORT.H(2): error C231: 'Signal1': redefinition
+..\MAIN\PORT.H(3): error C231: 'Signal2': redefinition
+..\MAIN\PORT.H(4): error C231: 'Signal3': redefinition
+..\MAIN\PORT.H(5): error C231: 'Signal4': redefinition
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+..\INPUT\INPUT.C(10): error C202: 'Koncentrator_Delay': undefined identifier
+..\INPUT\INPUT.C(11): error C202: 'Step_Koncentrator': undefined identifier
+compiling Output.c...
+..\MAIN\PORT.H(2): error C231: 'Signal1': redefinition
+..\MAIN\PORT.H(3): error C231: 'Signal2': redefinition
+..\MAIN\PORT.H(4): error C231: 'Signal3': redefinition
+..\MAIN\PORT.H(5): error C231: 'Signal4': redefinition
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+compiling beep.c...
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+..\MAIN\EXT_REG.H(18): error C231: 'Signal1': redefinition
+..\MAIN\EXT_REG.H(19): error C231: 'Signal2': redefinition
+..\MAIN\EXT_REG.H(20): error C231: 'Signal3': redefinition
+..\MAIN\EXT_REG.H(21): error C231: 'Signal4': redefinition
+compiling FlashRom.c...
+compiling memory.c...
+Target not created
+Build target 'Gateway'
+compiling Main.c...
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+compiling 0_02_11h.C...
+compiling hSch51.c...
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+compiling CommCmdS1.c...
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+compiling CommCmdS2.c...
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+compiling serialS1.c...
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+..\COMM\SERIALS1.C(24): error C202: 'RS485EN1': undefined identifier
+..\COMM\SERIALS1.C(37): error C202: 'RS485EN1': undefined identifier
+..\COMM\SERIALS1.C(46): error C202: 'RS485EN1': undefined identifier
+..\COMM\SERIALS1.C(111): error C202: 'mLED3': undefined identifier
+compiling serialS2.c...
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+..\COMM\SERIALS2.C(25): error C202: 'RS485EN2': undefined identifier
+..\COMM\SERIALS2.C(48): error C202: 'RS485EN2': undefined identifier
+..\COMM\SERIALS2.C(57): error C202: 'RS485EN2': undefined identifier
+..\COMM\SERIALS2.C(195): error C202: 'mLED1': undefined identifier
+..\COMM\SERIALS2.C(220): error C202: 'mLED2': undefined identifier
+compiling CommCmdAll.c...
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+compiling CommCmdS3.c...
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+compiling CommCmdS4.c...
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+compiling serialS3.c...
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+..\COMM\SERIALS3.C(38): error C202: 'RS485EN2': undefined identifier
+..\COMM\SERIALS3.C(47): error C202: 'RS485EN2': undefined identifier
+compiling serialS4.c...
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+..\COMM\SERIALS4.C(37): error C202: 'RS485EN3': undefined identifier
+..\COMM\SERIALS4.C(82): error C202: 'H_TerCode': undefined identifier
+..\COMM\SERIALS4.C(83): error C202: 'L_TerCode': undefined identifier
+compiling Input.c...
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+..\INPUT\INPUT.C(10): error C202: 'Koncentrator_Delay': undefined identifier
+..\INPUT\INPUT.C(11): error C202: 'Step_Koncentrator': undefined identifier
+compiling Output.c...
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+compiling beep.c...
+..\MAIN\PORT.H(13): error C141: syntax error near '/', expected '='
+..\MAIN\PORT.H(13): error C202: 'CMD': undefined identifier
+compiling FlashRom.c...
+compiling memory.c...
+Target not created
+Build target 'Gateway'
+compiling Main.c...
+compiling 0_02_11h.C...
+compiling hSch51.c...
+compiling CommCmdS1.c...
+compiling CommCmdS2.c...
+compiling serialS1.c...
+..\COMM\SERIALS1.C(24): error C202: 'RS485EN1': undefined identifier
+..\COMM\SERIALS1.C(37): error C202: 'RS485EN1': undefined identifier
+..\COMM\SERIALS1.C(46): error C202: 'RS485EN1': undefined identifier
+..\COMM\SERIALS1.C(111): error C202: 'mLED3': undefined identifier
+compiling serialS2.c...
+..\COMM\SERIALS2.C(25): error C202: 'RS485EN2': undefined identifier
+..\COMM\SERIALS2.C(48): error C202: 'RS485EN2': undefined identifier
+..\COMM\SERIALS2.C(57): error C202: 'RS485EN2': undefined identifier
+..\COMM\SERIALS2.C(195): error C202: 'mLED1': undefined identifier
+..\COMM\SERIALS2.C(220): error C202: 'mLED2': undefined identifier
+compiling CommCmdAll.c...
+compiling CommCmdS3.c...
+compiling CommCmdS4.c...
+compiling serialS3.c...
+..\COMM\SERIALS3.C(38): error C202: 'RS485EN2': undefined identifier
+..\COMM\SERIALS3.C(47): error C202: 'RS485EN2': undefined identifier
+compiling serialS4.c...
+..\COMM\SERIALS4.C(37): error C202: 'RS485EN3': undefined identifier
+..\COMM\SERIALS4.C(82): error C202: 'H_TerCode': undefined identifier
+..\COMM\SERIALS4.C(83): error C202: 'L_TerCode': undefined identifier
+compiling Input.c...
+..\INPUT\INPUT.C(10): error C202: 'Koncentrator_Delay': undefined identifier
+..\INPUT\INPUT.C(11): error C202: 'Step_Koncentrator': undefined identifier
+compiling Output.c...
+compiling beep.c...
+compiling FlashRom.c...
+compiling memory.c...
+Target not created
+Build target 'Gateway'
+compiling Main.c...
+compiling 0_02_11h.C...
+compiling hSch51.c...
+compiling CommCmdS1.c...
+compiling CommCmdS2.c...
+compiling serialS1.c...
+compiling serialS2.c...
+compiling CommCmdAll.c...
+compiling CommCmdS3.c...
+compiling CommCmdS4.c...
+compiling serialS3.c...
+compiling serialS4.c...
+..\COMM\SERIALS4.C(37): error C202: 'RS485EN3': undefined identifier
+compiling Input.c...
+compiling Output.c...
+compiling beep.c...
+compiling FlashRom.c...
+compiling memory.c...
+Target not created
+Build target 'Gateway'
+compiling Main.c...
+compiling 0_02_11h.C...
+compiling hSch51.c...
+compiling CommCmdS1.c...
+compiling CommCmdS2.c...
+compiling serialS1.c...
+compiling serialS2.c...
+compiling CommCmdAll.c...
+compiling CommCmdS3.c...
+compiling CommCmdS4.c...
+compiling serialS3.c...
+compiling serialS4.c...
+compiling Input.c...
+compiling Output.c...
+compiling beep.c...
+compiling FlashRom.c...
+compiling memory.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIALS1_SEND_TO_GATEWAY?SERIALS1
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SERIALS2_TERMINAL_SEND?SERIALS2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SERIALS2_ENERGY_SEND?SERIALS2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SERIALS2_WATER_SEND?SERIALS2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SERIALS2_SEND_AT_TO_TERMINAL?SERIALS2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COMMCMDS3_UPDATE?COMMCMDS3
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COMMCMDS4_UPDATE?COMMCMDS4
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIALS3_INIT?SERIALS3
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIALS3_UPDATE?SERIALS3
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SERIALS3_SEND?SERIALS3
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_INITS4?SERIALS4
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SERIAL_UPDATES4?SERIALS4
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SERIAL_SENDS4?SERIALS4
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  LED_ON
+    MODULE:  ..\HexCode\beep.obj (BEEP)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  LED_OFF
+    MODULE:  ..\HexCode\beep.obj (BEEP)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  LED_ON
+    MODULE:  ..\HexCode\beep.obj (BEEP)
+    ADDRESS: 0A7CH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  LED_OFF
+    MODULE:  ..\HexCode\beep.obj (BEEP)
+    ADDRESS: 0A7FH
+Program Size: data=64.2 xdata=1692 code=2792
+creating hex file from "..\HexCode\热能监控网关_20151217"...
+"..\HexCode\热能监控网关_20151217" - 0 Error(s), 17 Warning(s).
